@@ -2,10 +2,10 @@
 """App Store Connect metadata, screenshots, and submit-for-review (gated in CI).
 
 Submitting for review covers both the App Store version and any Ready-to-Submit
-in-app purchases / auto-renewable subscriptions. Since the 2026 workflow change
-these live on separate resources (`/v1/subscriptionSubmissions`,
-`/v1/inAppPurchaseSubmissions`); they must go out with the version for a
-first-time subscription submission or App Review rejects the build."""
+subscriptions. As of the 2026 workflow, subscriptions attach to the review
+submission through the `subscriptionVersion` relationship on Review Submission
+Items; they must go out with the version for a first-time subscription
+submission or App Review rejects the build."""
 from __future__ import annotations
 
 import argparse
@@ -418,7 +418,105 @@ def intended_product_ids() -> set[str]:
 
 
 class ProductSubmitError(Exception):
-    """A Ready-to-Submit product could not be added to App Review."""
+    """A required product could not be added to App Review."""
+
+
+class ProductSubmitResult:
+    """Outcome of attaching products to a review submission."""
+
+    def __init__(self, submission_id: str, submitted: int, added_items: bool) -> None:
+        self.submission_id = submission_id
+        self.submitted = submitted
+        self.added_items = added_items
+
+
+# States that mean the product can still be (re)attached to a review.
+SUBMITTABLE_PRODUCT_STATES = {
+    "READY_TO_SUBMIT",
+    "DEVELOPER_REJECTED",
+    "READY_FOR_REVIEW",
+}
+
+
+def get_or_create_draft_submission(client: AscClient, app_id: str) -> str:
+    """Return the app's READY_FOR_REVIEW draft review submission, creating one."""
+    existing = client.get(
+        f"/apps/{app_id}/reviewSubmissions?"
+        + urllib.parse.urlencode({"filter[state]": "READY_FOR_REVIEW", "limit": "5"})
+    )
+    for row in existing.get("data") or []:
+        return row["id"]
+    submission = client.post(
+        "/reviewSubmissions",
+        {
+            "data": {
+                "type": "reviewSubmissions",
+                "relationships": {"app": {"data": {"type": "apps", "id": app_id}}},
+            }
+        },
+    )
+    return submission["data"]["id"]
+
+
+def draft_item_version_ids(client: AscClient, submission_id: str) -> set[str]:
+    """Return the subscription/app version ids already attached to a draft."""
+    ids: set[str] = set()
+    for item in iter_collection(client, f"/reviewSubmissions/{submission_id}/items"):
+        relationships = item.get("relationships") or {}
+        for name in ("subscriptionVersion", "appStoreVersion", "inAppPurchaseVersion"):
+            related = (relationships.get(name) or {}).get("data") or {}
+            if related.get("id"):
+                ids.add(related["id"])
+    return ids
+
+
+def draft_holds_app_version(client: AscClient, submission_id: str) -> bool:
+    """Return True if any item in the draft references an app store version."""
+    for item in iter_collection(client, f"/reviewSubmissions/{submission_id}/items"):
+        related = (
+            ((item.get("relationships") or {}).get("appStoreVersion") or {}).get("data")
+            or {}
+        )
+        if related.get("id"):
+            return True
+    return False
+
+
+def submit_product_draft(client: AscClient, submission_id: str) -> None:
+    """Submit a draft review submission.
+
+    Used on the catch-up path when the app version is already under review and a
+    late Ready-to-Submit product was attached to a new draft: the draft is
+    submitted on its own so the product actually reaches review. Callers must
+    ensure the draft holds only products intended for this release.
+    """
+    client.request(
+        "PATCH",
+        f"/reviewSubmissions/{submission_id}",
+        body={
+            "data": {
+                "type": "reviewSubmissions",
+                "id": submission_id,
+                "attributes": {"submitted": True},
+            }
+        },
+    )
+    print(f"  submitted product review submission {submission_id}")
+
+
+def current_subscription_version(
+    client: AscClient, subscription_id: str
+) -> str | None:
+    """Return the subscription's current in-flight version id, if any.
+
+    App Store Connect allows only one in-flight version per subscription, so the
+    highest-numbered version in a submittable state is the one to attach.
+    """
+    versions = iter_collection(client, f"/subscriptions/{subscription_id}/versions")
+    candidates = [v for v in versions if (v.get("attributes") or {}).get("version")]
+    if not candidates:
+        return versions[0]["id"] if versions else None
+    return max(candidates, key=lambda v: v["attributes"]["version"])["id"]
 
 
 def submit_in_app_purchases(
@@ -426,29 +524,39 @@ def submit_in_app_purchases(
     app_id: str,
     *,
     intended_ids: set[str] | None = None,
-) -> int:
+    submission_id: str | None = None,
+) -> ProductSubmitResult:
     """Attach Ready-to-Submit subscriptions / IAPs to App Review.
 
-    Since the 2026 App Store Connect submission workflow, in-app purchases and
-    auto-renewable subscriptions are submitted through dedicated resources
-    (`/v1/subscriptionSubmissions`, `/v1/inAppPurchaseSubmissions`) rather than
-    the Review Submission Item list, which only accepts the App Store version,
-    version experiments, custom product pages, and app events. A first-time
-    subscription submission must therefore be created in the same release as the
-    version, or App Review rejects the build.
+    As of the 2026 App Store Connect workflow, subscriptions are added to the
+    app's review submission through the `subscriptionVersion` relationship on
+    Review Submission Items — not the `subscription` relationship, which the API
+    rejects. Attaching the current in-flight version also clears a
+    `DEVELOPER_REJECTED` state left by a prior submission (for example when a
+    plan was removed from an earlier review). Consumables and tips use the
+    separate `inAppPurchaseSubmissions` endpoint.
 
     Only products listed in `store/catalog/products.json` are considered, so an
     unrelated Ready-to-Submit plan, credit pack, or tip is not dragged into this
-    release. Returns the number of products submitted for review.
+    release.
     """
     if intended_ids is None:
         intended_ids = intended_product_ids()
 
-    submitted = 0
-    failures: list[str] = []
     if not intended_ids:
         print("  catalog has no products to submit")
-        return 0
+        return ProductSubmitResult(submission_id or "", 0, False)
+
+    if submission_id is None:
+        submission_id = get_or_create_draft_submission(client, app_id)
+
+    # Idempotency: a retry reuses the same draft, so skip anything already
+    # attached instead of posting a duplicate that App Store Connect rejects.
+    already_attached = draft_item_version_ids(client, submission_id)
+
+    submitted = 0
+    added_items = False
+    failures: list[str] = []
 
     for group in iter_collection(
         client, f"/apps/{app_id}/subscriptionGroups?limit=200"
@@ -460,19 +568,36 @@ def submit_in_app_purchases(
             pid = attrs.get("productId") or ""
             if pid not in intended_ids:
                 continue
+            if attrs.get("state") not in SUBMITTABLE_PRODUCT_STATES:
+                continue
             name = attrs.get("name") or sub["id"]
-            if attrs.get("state") != "READY_TO_SUBMIT":
+            version_id = current_subscription_version(client, sub["id"])
+            if not version_id:
+                failures.append(f"subscription {name} ({pid}): no version to submit")
+                continue
+            if version_id in already_attached:
+                submitted += 1
+                print(f"  subscription {name}: already attached (idempotent)")
                 continue
             try:
                 client.post(
-                    "/subscriptionSubmissions",
+                    "/reviewSubmissionItems",
                     {
                         "data": {
-                            "type": "subscriptionSubmissions",
+                            "type": "reviewSubmissionItems",
                             "relationships": {
-                                "subscription": {
-                                    "data": {"type": "subscriptions", "id": sub["id"]}
-                                }
+                                "reviewSubmission": {
+                                    "data": {
+                                        "type": "reviewSubmissions",
+                                        "id": submission_id,
+                                    }
+                                },
+                                "subscriptionVersion": {
+                                    "data": {
+                                        "type": "subscriptionVersions",
+                                        "id": version_id,
+                                    }
+                                },
                             },
                         }
                     },
@@ -481,7 +606,8 @@ def submit_in_app_purchases(
                 failures.append(f"subscription {name} ({pid})")
                 continue
             submitted += 1
-            print(f"  subscription {name}: submitted for review")
+            added_items = True
+            print(f"  subscription {name}: attached to review submission")
 
     for iap in iter_collection(client, f"/apps/{app_id}/inAppPurchasesV2?limit=200"):
         attrs = iap.get("attributes") or {}
@@ -514,41 +640,25 @@ def submit_in_app_purchases(
     print(f"  in-app purchases / subscriptions submitted: {submitted}")
     if failures:
         raise ProductSubmitError(
-            "these required Ready-to-Submit products were not added to "
-            "App Review: "
+            "these required products were not added to App Review: "
             + "; ".join(failures)
-            + " (a removed subscription version stays DEVELOPER_REJECTED in "
-            "App Store Connect and must be cleared before resubmitting)"
+            + ". Resolve them in App Store Connect and rerun the release."
         )
-    return submitted
+    return ProductSubmitResult(submission_id, submitted, added_items)
 
 
 def submit_for_review(
-    client: AscClient, app_id: str, version_id: str, version_state: str = ""
+    client: AscClient,
+    app_id: str,
+    version_id: str,
+    version_state: str = "",
+    *,
+    submission_id: str | None = None,
 ) -> None:
     # Reuse a draft submission when one already exists (an earlier attempt can
     # leave a READY_FOR_REVIEW submission that was never submitted).
-    submission_id: str | None = None
-    existing = client.get(
-        f"/apps/{app_id}/reviewSubmissions?"
-        + urllib.parse.urlencode({"filter[state]": "READY_FOR_REVIEW", "limit": "5"})
-    )
-    for row in existing.get("data") or []:
-        submission_id = row["id"]
-        break
     if submission_id is None:
-        submission = client.post(
-            "/reviewSubmissions",
-            {
-                "data": {
-                    "type": "reviewSubmissions",
-                    "relationships": {
-                        "app": {"data": {"type": "apps", "id": app_id}}
-                    },
-                }
-            },
-        )
-        submission_id = submission["data"]["id"]
+        submission_id = get_or_create_draft_submission(client, app_id)
 
     items = client.get(f"/reviewSubmissions/{submission_id}/items?limit=50")
     item_version_ids = set()
@@ -622,49 +732,134 @@ def dry_run_self_check() -> None:
     app_id = "APP"
     groups_path = f"/apps/{app_id}/subscriptionGroups?limit=200"
     subs_path = "/subscriptionGroups/G1/subscriptions?limit=200"
-    iaps_path = f"/apps/{app_id}/inAppPurchasesV2?limit=200"
+    submission_path = (
+        f"/apps/{app_id}/reviewSubmissions?"
+        + urllib.parse.urlencode({"filter[state]": "READY_FOR_REVIEW", "limit": "5"})
+    )
     ids = {
         "plus.monthly": "com.apoorvdarshan.calorietracker.plus.monthly",
         "plus.yearly": "com.apoorvdarshan.calorietracker.plus.yearly",
         "pro.monthly": "com.apoorvdarshan.calorietracker.pro.monthly",
         "pro.yearly": "com.apoorvdarshan.calorietracker.pro.yearly",
     }
-    fake = _RecordingClient(
-        {
-            groups_path: [{"id": "G1"}],
-            subs_path: [
-                {
-                    "id": "S1",
-                    "attributes": {
-                        "name": name,
-                        "productId": pid,
-                        "state": "READY_TO_SUBMIT",
-                    },
-                }
-                for name, pid in ids.items()
-            ]
-            + [
-                {
-                    "id": "S0",
-                    "attributes": {
-                        "name": "Legacy",
-                        "productId": "com.apoorvdarshan.calorietracker.legacy",
-                        "state": "READY_TO_SUBMIT",
-                    },
-                }
-            ],
-            iaps_path: [],
-        }
-    )
-    submitted = submit_in_app_purchases(fake, app_id, intended_ids=set(ids.values()))
-    assert submitted == 4, f"expected 4 subscriptions, got {submitted}"
-    submitted_ids = {
-        body["data"]["relationships"]["subscription"]["data"]["id"] for _, body in fake.posts
+    collections: dict[str, list[dict[str, Any]]] = {
+        groups_path: [{"id": "G1"}],
+        subs_path: [
+            {
+                "id": f"S{i}",
+                "attributes": {
+                    "name": name,
+                    "productId": pid,
+                    # One plan is still DEVELOPER_REJECTED from a prior submit.
+                    "state": "DEVELOPER_REJECTED" if i == 0 else "READY_TO_SUBMIT",
+                },
+            }
+            for i, (name, pid) in enumerate(ids.items())
+        ]
+        + [
+            {
+                "id": "SX",
+                "attributes": {
+                    "name": "Legacy",
+                    "productId": "com.apoorvdarshan.calorietracker.legacy",
+                    "state": "READY_TO_SUBMIT",
+                },
+            }
+        ],
+        submission_path: [{"id": "SUB1"}],
+        f"/apps/{app_id}/inAppPurchasesV2?limit=200": [
+            {
+                "id": "IAP1",
+                "attributes": {
+                    "name": "Credits 50",
+                    "productId": "com.apoorvdarshan.calorietracker.credits.50",
+                    "state": "READY_TO_SUBMIT",
+                },
+            },
+            {
+                "id": "IAP2",
+                "attributes": {
+                    "name": "Tip Snack",
+                    "productId": "com.apoorvdarshan.calorietracker.tip.snack",
+                    # Already approved: must not be resubmitted.
+                    "state": "APPROVED",
+                },
+            },
+        ],
     }
-    assert submitted_ids == {"S1"}, f"unexpected submitted products: {submitted_ids}"
+    for i in range(len(ids)):
+        # Two versions returned out of order: the higher-numbered current
+        # version must win regardless of response ordering.
+        collections[f"/subscriptions/S{i}/versions"] = [
+            {"id": f"V{i}b", "attributes": {"version": 2, "state": "READY_FOR_REVIEW"}},
+            {"id": f"V{i}", "attributes": {"version": 1, "state": "DEVELOPER_REJECTED"}},
+        ]
+    fake = _RecordingClient(collections)
+    intended = set(ids.values()) | {
+        "com.apoorvdarshan.calorietracker.credits.50",
+        "com.apoorvdarshan.calorietracker.tip.snack",
+    }
+    result = submit_in_app_purchases(fake, app_id, intended_ids=intended)
+    assert result.submitted == 5, f"expected 5 products, got {result.submitted}"
+    assert result.added_items, "expected added_items=True"
+    assert result.submission_id == "SUB1", f"wrong submission: {result.submission_id}"
+    item_posts = [body for path, body in fake.posts if path == "/reviewSubmissionItems"]
+    assert len(item_posts) == 4, f"expected 4 reviewSubmissionItems, got {len(item_posts)}"
+    attached_versions = {
+        body["data"]["relationships"]["subscriptionVersion"]["data"]["id"]
+        for body in item_posts
+    }
+    assert attached_versions == {f"V{i}b" for i in range(4)}, (
+        f"expected the current (v2) version of each subscription, got {attached_versions}"
+    )
     assert all(
-        body["data"]["type"] == "subscriptionSubmissions" for _, body in fake.posts
-    ), "wrong request type"
+        body["data"]["relationships"]["reviewSubmission"]["data"]["id"] == "SUB1"
+        for body in item_posts
+    ), "wrong review submission target"
+    iap_posts = [body for path, body in fake.posts if path == "/inAppPurchaseSubmissions"]
+    assert len(iap_posts) == 1, f"expected 1 IAP submission, got {len(iap_posts)}"
+    assert (
+        iap_posts[0]["data"]["relationships"]["inAppPurchaseV2"]["data"]["id"] == "IAP1"
+    ), "wrong IAP submitted (approved products must be skipped)"
+
+    # Retry: the same draft already holds one subscription version, so the rerun
+    # must not post it again (App Store Connect rejects duplicates).
+    collections[f"/reviewSubmissions/SUB1/items"] = [
+        {
+            "id": "ITEM0",
+            "relationships": {
+                "subscriptionVersion": {
+                    "data": {"type": "subscriptionVersions", "id": "V0b"}
+                }
+            },
+        }
+    ]
+    retry = _RecordingClient(collections)
+    result2 = submit_in_app_purchases(retry, app_id, intended_ids=intended)
+    assert result2.submitted == 5, f"expected 5 products on retry, got {result2.submitted}"
+    assert result2.added_items, "retry should still add the missing subscriptions"
+    retry_items = [body for path, body in retry.posts if path == "/reviewSubmissionItems"]
+    retry_versions = {
+        body["data"]["relationships"]["subscriptionVersion"]["data"]["id"]
+        for body in retry_items
+    }
+    assert "V0b" not in retry_versions, "already-attached version was posted again"
+    assert retry_versions == {f"V{i}b" for i in range(1, 4)}, (
+        f"retry attached the wrong versions: {retry_versions}"
+    )
+    assert draft_holds_app_version(retry, "SUB1") is False, "false app-version detection"
+    assert draft_holds_app_version(fake, "SUB1") is False
+    collections["/reviewSubmissions/SUB1/items"] = [
+        {
+            "id": "ITEMV",
+            "relationships": {
+                "appStoreVersion": {"data": {"type": "appStoreVersions", "id": "AV1"}}
+            },
+        }
+    ]
+    assert draft_holds_app_version(_RecordingClient(collections), "SUB1") is True, (
+        "app-version items must be detected and refused"
+    )
     print("  dry-run self-check: product submission selection OK")
 
 
@@ -765,9 +960,21 @@ def main() -> None:
                 "ASC submit skipped — version already WAITING_FOR_REVIEW (idempotent)"
             )
             try:
-                submit_in_app_purchases(client, app_id)
+                result = submit_in_app_purchases(client, app_id)
             except ProductSubmitError as exc:
                 fail(str(exc))
+            # Attaching a product to a fresh draft does not submit it. If the
+            # version is already under review, the draft holding the late
+            # products must be submitted on its own or they never reach review.
+            # Only submit a product-only draft: refuse if it holds an app
+            # version (e.g. another release's) so unrelated items never ship.
+            if result.added_items and result.submission_id:
+                if draft_holds_app_version(client, result.submission_id):
+                    fail(
+                        "refusing to submit a draft that contains an app "
+                        "version; remove it in App Store Connect and rerun"
+                    )
+                submit_product_draft(client, result.submission_id)
             print("ASC release step finished")
             return
         if do_listing or do_screenshots:
@@ -810,16 +1017,21 @@ def main() -> None:
 
     if do_submit:
         print("submitting in-app purchases / subscriptions for review…")
+        submission_id = get_or_create_draft_submission(client, app_id)
         try:
-            products_submitted = submit_in_app_purchases(client, app_id)
+            result = submit_in_app_purchases(
+                client, app_id, submission_id=submission_id
+            )
         except ProductSubmitError as exc:
             # A first-time subscription must ship with the version, so a failed
             # required product blocks the whole submission rather than letting
             # the version enter review without it.
             fail(f"{exc} Not submitting the app version.")
         print("submitting for App Store review…")
-        submit_for_review(client, app_id, version_id, state)
-        print(f"  {products_submitted} product(s) went out with the version")
+        submit_for_review(
+            client, app_id, version_id, state, submission_id=submission_id
+        )
+        print(f"  {result.submitted} product(s) went out with the version")
 
     print("ASC release step finished")
 
