@@ -424,10 +424,19 @@ class ProductSubmitError(Exception):
 class ProductSubmitResult:
     """Outcome of attaching products to a review submission."""
 
-    def __init__(self, submission_id: str, submitted: int, added_items: bool) -> None:
+    def __init__(
+        self,
+        submission_id: str,
+        submitted: int,
+        added_items: bool,
+        has_products: bool = False,
+    ) -> None:
         self.submission_id = submission_id
         self.submitted = submitted
         self.added_items = added_items
+        # True when the draft holds intended products (attached now or in an
+        # earlier run), so a catch-up retry can still submit the draft.
+        self.has_products = has_products
 
 
 # States that mean the product can still be (re)attached to a review.
@@ -458,10 +467,24 @@ def get_or_create_draft_submission(client: AscClient, app_id: str) -> str:
     return submission["data"]["id"]
 
 
+def draft_item_relationships(client: AscClient, submission_id: str) -> list[dict[str, Any]]:
+    """Return the draft's items with their version relationships populated.
+
+    App Store Connect omits `relationships` from Review Submission Items unless
+    they are requested with `include`, so both relationship readers must ask for
+    the version relationships explicitly.
+    """
+    return iter_collection(
+        client,
+        f"/reviewSubmissions/{submission_id}/items"
+        "?limit=50&include=subscriptionVersion,appStoreVersion",
+    )
+
+
 def draft_item_version_ids(client: AscClient, submission_id: str) -> set[str]:
     """Return the subscription/app version ids already attached to a draft."""
     ids: set[str] = set()
-    for item in iter_collection(client, f"/reviewSubmissions/{submission_id}/items"):
+    for item in draft_item_relationships(client, submission_id):
         relationships = item.get("relationships") or {}
         for name in ("subscriptionVersion", "appStoreVersion", "inAppPurchaseVersion"):
             related = (relationships.get(name) or {}).get("data") or {}
@@ -472,7 +495,7 @@ def draft_item_version_ids(client: AscClient, submission_id: str) -> set[str]:
 
 def draft_holds_app_version(client: AscClient, submission_id: str) -> bool:
     """Return True if any item in the draft references an app store version."""
-    for item in iter_collection(client, f"/reviewSubmissions/{submission_id}/items"):
+    for item in draft_item_relationships(client, submission_id):
         related = (
             ((item.get("relationships") or {}).get("appStoreVersion") or {}).get("data")
             or {}
@@ -556,6 +579,7 @@ def submit_in_app_purchases(
 
     submitted = 0
     added_items = False
+    has_products = False
     failures: list[str] = []
 
     for group in iter_collection(
@@ -577,6 +601,7 @@ def submit_in_app_purchases(
                 continue
             if version_id in already_attached:
                 submitted += 1
+                has_products = True
                 print(f"  subscription {name}: already attached (idempotent)")
                 continue
             try:
@@ -607,6 +632,7 @@ def submit_in_app_purchases(
                 continue
             submitted += 1
             added_items = True
+            has_products = True
             print(f"  subscription {name}: attached to review submission")
 
     for iap in iter_collection(client, f"/apps/{app_id}/inAppPurchasesV2?limit=200"):
@@ -644,7 +670,7 @@ def submit_in_app_purchases(
             + "; ".join(failures)
             + ". Resolve them in App Store Connect and rerun the release."
         )
-    return ProductSubmitResult(submission_id, submitted, added_items)
+    return ProductSubmitResult(submission_id, submitted, added_items, has_products)
 
 
 def submit_for_review(
@@ -660,16 +686,9 @@ def submit_for_review(
     if submission_id is None:
         submission_id = get_or_create_draft_submission(client, app_id)
 
-    items = client.get(f"/reviewSubmissions/{submission_id}/items?limit=50")
-    item_version_ids = set()
-    for item in items.get("data") or []:
-        related = ((item.get("relationships") or {}).get("appStoreVersion") or {}).get(
-            "data"
-        ) or {}
-        if related.get("id"):
-            item_version_ids.add(related["id"])
+    items_versions = draft_item_version_ids(client, submission_id)
     # READY_FOR_REVIEW means the version is already held by this draft submission.
-    already_added = version_state == "READY_FOR_REVIEW" or version_id in item_version_ids
+    already_added = version_state == "READY_FOR_REVIEW" or version_id in items_versions
     if not already_added:
         client.post(
             "/reviewSubmissionItems",
@@ -712,6 +731,7 @@ class _RecordingClient:
     def __init__(self, collections: dict[str, list[dict[str, Any]]]) -> None:
         self._collections = collections
         self.posts: list[tuple[str, dict[str, Any]]] = []
+        self.requests: list[tuple[str, str, dict[str, Any] | None]] = []
 
     def get(self, path: str) -> dict[str, Any]:
         return {"data": self._collections.get(path, [])}
@@ -723,8 +743,9 @@ class _RecordingClient:
     def patch(self, path: str, body: dict[str, Any]) -> dict[str, Any]:  # pragma: no cover
         raise AssertionError(f"unexpected PATCH {path}")
 
-    def request(self, *args: Any, **kwargs: Any) -> Any:  # pragma: no cover
-        raise AssertionError("unexpected request")
+    def request(self, method: str, path: str, body: dict[str, Any] | None = None) -> Any:
+        self.requests.append((method, path, body))
+        return {"data": {"id": "fake"}}
 
 
 def dry_run_self_check() -> None:
@@ -824,13 +845,16 @@ def dry_run_self_check() -> None:
 
     # Retry: the same draft already holds one subscription version, so the rerun
     # must not post it again (App Store Connect rejects duplicates).
-    collections[f"/reviewSubmissions/SUB1/items"] = [
+    collections[
+        "/reviewSubmissions/SUB1/items?limit=50&include=subscriptionVersion,appStoreVersion"
+    ] = [
         {
             "id": "ITEM0",
             "relationships": {
                 "subscriptionVersion": {
                     "data": {"type": "subscriptionVersions", "id": "V0b"}
-                }
+                },
+                "appStoreVersion": {"data": None},
             },
         }
     ]
@@ -838,6 +862,7 @@ def dry_run_self_check() -> None:
     result2 = submit_in_app_purchases(retry, app_id, intended_ids=intended)
     assert result2.submitted == 5, f"expected 5 products on retry, got {result2.submitted}"
     assert result2.added_items, "retry should still add the missing subscriptions"
+    assert result2.has_products, "retry must report the draft holds products"
     retry_items = [body for path, body in retry.posts if path == "/reviewSubmissionItems"]
     retry_versions = {
         body["data"]["relationships"]["subscriptionVersion"]["data"]["id"]
@@ -849,17 +874,73 @@ def dry_run_self_check() -> None:
     )
     assert draft_holds_app_version(retry, "SUB1") is False, "false app-version detection"
     assert draft_holds_app_version(fake, "SUB1") is False
-    collections["/reviewSubmissions/SUB1/items"] = [
+    collections[
+        "/reviewSubmissions/SUB1/items?limit=50&include=subscriptionVersion,appStoreVersion"
+    ] = [
         {
             "id": "ITEMV",
             "relationships": {
-                "appStoreVersion": {"data": {"type": "appStoreVersions", "id": "AV1"}}
+                "appStoreVersion": {"data": {"type": "appStoreVersions", "id": "AV1"}},
+                "subscriptionVersion": {"data": None},
             },
         }
     ]
     assert draft_holds_app_version(_RecordingClient(collections), "SUB1") is True, (
         "app-version items must be detected and refused"
     )
+
+    # Retry a catch-up where the products are already attached: has_products is
+    # true even though nothing was added on this run, so the draft still submits.
+    collections[
+        "/reviewSubmissions/SUB1/items?limit=50&include=subscriptionVersion,appStoreVersion"
+    ] = [
+        {
+            "id": f"ITEM{i}",
+            "relationships": {
+                "subscriptionVersion": {
+                    "data": {"type": "subscriptionVersions", "id": f"V{i}b"}
+                },
+                "appStoreVersion": {"data": None},
+            },
+        }
+        for i in range(4)
+    ]
+    attached_only = _RecordingClient(collections)
+    result3 = submit_in_app_purchases(attached_only, app_id, intended_ids=intended)
+    assert result3.added_items is False, "nothing new should attach"
+    assert result3.has_products, "attached-only draft must still report products"
+    assert not [
+        path for path, _ in attached_only.posts if path == "/reviewSubmissionItems"
+    ], "attached-only retry posted a duplicate item"
+
+    # submit_for_review must not re-add an app version already in the draft.
+    review = _RecordingClient(
+        {
+            **collections,
+            "/reviewSubmissions/SUB1/items?limit=50&include=subscriptionVersion,appStoreVersion": [
+                {
+                    "id": "ITEMV",
+                    "relationships": {
+                        "appStoreVersion": {
+                            "data": {"type": "appStoreVersions", "id": "AV1"}
+                        },
+                        "subscriptionVersion": {"data": None},
+                    },
+                }
+            ],
+        }
+    )
+    submit_for_review(review, app_id, "AV1", "PREPARE_FOR_SUBMISSION", submission_id="SUB1")
+    assert not [
+        path for path, _ in review.posts if path == "/reviewSubmissionItems"
+    ], "app version was posted again on retry"
+    assert any(
+        method == "PATCH"
+        and path == "/reviewSubmissions/SUB1"
+        and body is not None
+        and body["data"]["attributes"]["submitted"] is True
+        for method, path, body in review.requests
+    ), "submission was not PATCHed to submitted=true"
     print("  dry-run self-check: product submission selection OK")
 
 
@@ -968,7 +1049,14 @@ def main() -> None:
             # products must be submitted on its own or they never reach review.
             # Only submit a product-only draft: refuse if it holds an app
             # version (e.g. another release's) so unrelated items never ship.
-            if result.added_items and result.submission_id:
+            # Attaching a product to a fresh draft does not submit it. If the
+            # version is already under review, the draft holding the late
+            # products must be submitted on its own or they never reach review.
+            # `has_products` also covers a retry where an earlier run attached
+            # the products but failed to submit their draft. Only submit a
+            # product-only draft: refuse if it holds an app version (e.g.
+            # another release's) so unrelated items never ship.
+            if result.has_products and result.submission_id:
                 if draft_holds_app_version(client, result.submission_id):
                     fail(
                         "refusing to submit a draft that contains an app "
