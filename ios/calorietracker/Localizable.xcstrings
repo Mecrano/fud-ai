@@ -63983,6 +63983,4630 @@
           }
         }
       }
+    },
+    "#%lld–#%lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "#%1$lld–#%2$lld"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "#%1$lld–#%2$lld"
+          }
+        }
+      }
+    },
+    "%@ %@ · Renews automatically, cancel anytime.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ %2$@ · Renews automatically, cancel anytime."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ %2$@ · Se renueva automáticamente, cancela cuando quieras."
+          }
+        }
+      }
+    },
+    "%@ %@g": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ %2$@g"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ %2$@ g"
+          }
+        }
+      }
+    },
+    "%@ (%@)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ (%2$@)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ (%2$@)"
+          }
+        }
+      }
+    },
+    "%@ - %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ - %2$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ - %2$@"
+          }
+        }
+      }
+    },
+    "%@ for %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ for %2$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ para %2$@"
+          }
+        }
+      }
+    },
+    "%@ · %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
+          }
+        }
+      }
+    },
+    "%@ – %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ – %2$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ – %2$@"
+          }
+        }
+      }
+    },
+    "%@, %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, %2$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, %2$@"
+          }
+        }
+      }
+    },
+    "%@, %@, %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, %2$@, %3$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, %2$@, %3$@"
+          }
+        }
+      }
+    },
+    "%@, %lld exercises": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, %2$lld exercises"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, %2$lld ejercicios"
+          }
+        }
+      }
+    },
+    "%@: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@: %2$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@: %2$@"
+          }
+        }
+      }
+    },
+    "%@g · %lld kcal": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@g · %2$lld kcal"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ g · %2$lld kcal"
+          }
+        }
+      }
+    },
+    "%lld AI actions every day": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld acciones de IA al día"
+          }
+        }
+      }
+    },
+    "%lld credits": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld créditos"
+          }
+        }
+      }
+    },
+    "%lld exercises": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ejercicios"
+          }
+        }
+      }
+    },
+    "%lld min": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld min"
+          }
+        }
+      }
+    },
+    "%lld of 10 photos": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld de 10 fotos"
+          }
+        }
+      }
+    },
+    "%lld workout%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld workout%2$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld entrenamiento%2$@"
+          }
+        }
+      }
+    },
+    "%lld workout%@%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld workout%2$@%3$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld entrenamiento%2$@%3$@"
+          }
+        }
+      }
+    },
+    "%lld/%lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld/%2$lld"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld/%2$lld"
+          }
+        }
+      }
+    },
+    "%lldP · %lldC · %lldF": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lldP · %2$lldC · %3$lldF"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lldP · %2$lldC · %3$lldG"
+          }
+        }
+      }
+    },
+    "**Borg 6–20:** Endurance effort linked to breathing and heart rate.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**Borg 6–20:** esfuerzo de resistencia ligado a la respiración y la frecuencia cardíaca."
+          }
+        }
+      }
+    },
+    "**CR10 0–10:** General effort from rest to maximum.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**CR10 0–10:** esfuerzo general, desde reposo hasta el máximo."
+          }
+        }
+      }
+    },
+    "**Strength 1–10:** Lifting effort based on how many reps you had left.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**Fuerza 1–10:** esfuerzo al levantar peso según cuántas repeticiones te quedaban."
+          }
+        }
+      }
+    },
+    "+ Menu": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+ Menú"
+          }
+        }
+      }
+    },
+    "+%lld": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+%lld"
+          }
+        }
+      }
+    },
+    "1 Glass (~%@)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 vaso (~%@)"
+          }
+        }
+      }
+    },
+    "2 Glasses (~%@)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 vasos (~%@)"
+          }
+        }
+      }
+    },
+    "20 minutes of rope skipping, then 3 sets of 10 bench presses at 40 kg": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20 minutos de saltar la cuerda y luego 3 series de 10 press de banca con 40 kg"
+          }
+        }
+      }
+    },
+    "3 Glasses (~%@)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3 vasos (~%@)"
+          }
+        }
+      }
+    },
+    "AI Mode": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modo de IA"
+          }
+        }
+      }
+    },
+    "Abdominals": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abdominales"
+          }
+        }
+      }
+    },
+    "About %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de %@"
+          }
+        }
+      }
+    },
+    "Above the general adult upper intake level. Use only if recommended by a healthcare professional.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supera el nivel máximo de ingesta general para adultos. Úsalo solo si te lo recomienda un profesional de la salud."
+          }
+        }
+      }
+    },
+    "Accept & Continue needs a real key in the API Key field. The grey hint is not a key — paste your %@ key.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aceptar y continuar necesita una clave real en el campo Clave API. La pista gris no es una clave: pega tu clave de %@."
+          }
+        }
+      }
+    },
+    "Actions": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acciones"
+          }
+        }
+      }
+    },
+    "Add %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir %@"
+          }
+        }
+      }
+    },
+    "Add Ingredient": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir ingrediente"
+          }
+        }
+      }
+    },
+    "Add Method": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir método"
+          }
+        }
+      }
+    },
+    "Add Photo": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir foto"
+          }
+        }
+      }
+    },
+    "Add Photos": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir fotos"
+          }
+        }
+      }
+    },
+    "Add Selected": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir seleccionados"
+          }
+        }
+      }
+    },
+    "Add Water": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir agua"
+          }
+        }
+      }
+    },
+    "Add a note to refine this entry — e.g. “large bowl, extra olive oil” — then tap Reprocess.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añade una nota para afinar este registro (p. ej., “tazón grande, aceite de oliva extra”) y luego toca Reprocesar."
+          }
+        }
+      }
+    },
+    "Add as New Entries": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir como registros nuevos"
+          }
+        }
+      }
+    },
+    "Add exercise": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir ejercicio"
+          }
+        }
+      }
+    },
+    "Add photo (optional)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir foto (opcional)"
+          }
+        }
+      }
+    },
+    "Add to diary": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir al diario"
+          }
+        }
+      }
+    },
+    "Add workout": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir entrenamiento"
+          }
+        }
+      }
+    },
+    "Adds exercise names only, with blank sets.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añade solo los nombres de los ejercicios, con series vacías."
+          }
+        }
+      }
+    },
+    "Adds this exercise to Saved": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añade este ejercicio a Guardados"
+          }
+        }
+      }
+    },
+    "Adjust from one to twelve sets": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajusta de una a doce series"
+          }
+        }
+      }
+    },
+    "All %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo (%@)"
+          }
+        }
+      }
+    },
+    "Allergen Check": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revisión de alérgenos"
+          }
+        }
+      }
+    },
+    "Allergen sensitivities": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sensibilidades a alérgenos"
+          }
+        }
+      }
+    },
+    "Allergens": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alérgenos"
+          }
+        }
+      }
+    },
+    "Alternate upper-body, lower-body, and core-focused days.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alterna días de tren superior, tren inferior y core."
+          }
+        }
+      }
+    },
+    "Apache 2.0": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apache 2.0"
+          }
+        }
+      }
+    },
+    "App Icon Shortcuts": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accesos rápidos del icono de la app"
+          }
+        }
+      }
+    },
+    "Apple Health Workouts": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrenamientos de Apple Health"
+          }
+        }
+      }
+    },
+    "Applies to all OpenRouter requests. Supported levels vary by model. Higher effort may take longer and cost more. Auto keeps the model default; incomplete responses retry with Low.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se aplica a todas las solicitudes de OpenRouter. Los niveles admitidos varían según el modelo. Un mayor esfuerzo puede tardar más y costar más. Automático mantiene el valor predeterminado del modelo; las respuestas incompletas se reintentan con Bajo."
+          }
+        }
+      }
+    },
+    "Arms": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brazos"
+          }
+        }
+      }
+    },
+    "Automatic Meal Selection": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selección automática de comida"
+          }
+        }
+      }
+    },
+    "Avg: %@ kcal": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prom.: %@ kcal"
+          }
+        }
+      }
+    },
+    "BYOK": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BYOK"
+          }
+        }
+      }
+    },
+    "BYOK uses your own provider keys with no limits. Hosted uses Fud AI’s Plus/Pro plan and burns your daily pool, then credit bank.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BYOK usa tus propias claves de proveedor sin límites. Alojado usa el plan Plus/Pro de Fud AI y consume tu cupo diario y luego tu saldo de créditos."
+          }
+        }
+      }
+    },
+    "Back": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Espalda"
+          }
+        }
+      }
+    },
+    "Back upper arm": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parte posterior del brazo"
+          }
+        }
+      }
+    },
+    "Basics": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Básicos"
+          }
+        }
+      }
+    },
+    "Best for lifting: rate effort by how many reps you had left.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ideal para pesas: valora el esfuerzo según cuántas repeticiones te quedaban."
+          }
+        }
+      }
+    },
+    "Body Part": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parte del cuerpo"
+          }
+        }
+      }
+    },
+    "Buy Credits": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comprar créditos"
+          }
+        }
+      }
+    },
+    "Buy Credits or Upgrade": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comprar créditos o mejorar plan"
+          }
+        }
+      }
+    },
+    "Buy credits, upgrade your plan, or switch to BYOK with your own API key.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compra créditos, mejora tu plan o cambia a BYOK con tu propia clave API."
+          }
+        }
+      }
+    },
+    "CALORIE BURN": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CALORÍAS QUEMADAS"
+          }
+        }
+      }
+    },
+    "Calculate": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calcular"
+          }
+        }
+      }
+    },
+    "Calculate calorie burn": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calcular calorías quemadas"
+          }
+        }
+      }
+    },
+    "Calculating": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calculando"
+          }
+        }
+      }
+    },
+    "Calculating…": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calculando…"
+          }
+        }
+      }
+    },
+    "Calories are estimates. Use Calculate in the diary after adding your workout.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las calorías son estimaciones. Usa Calcular en el diario después de añadir tu entrenamiento."
+          }
+        }
+      }
+    },
+    "Cancel selection": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar selección"
+          }
+        }
+      }
+    },
+    "Categories": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Categorías"
+          }
+        }
+      }
+    },
+    "Check the package label and follow your clinician's advice.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revisa la etiqueta del paquete y sigue las indicaciones de tu médico."
+          }
+        }
+      }
+    },
+    "Check your connection and try again.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revisa tu conexión e inténtalo de nuevo."
+          }
+        }
+      }
+    },
+    "Choose 1–4 Nutrients": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige de 1 a 4 nutrientes"
+          }
+        }
+      }
+    },
+    "Choose File": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir archivo"
+          }
+        }
+      }
+    },
+    "Choose JSON File": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir archivo JSON"
+          }
+        }
+      }
+    },
+    "Choose Photo": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir foto"
+          }
+        }
+      }
+    },
+    "Choose a JSON file previously exported by Fud AI. The file is validated before any diary entry is changed.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige un archivo JSON exportado previamente por Fud AI. El archivo se valida antes de cambiar cualquier registro del diario."
+          }
+        }
+      }
+    },
+    "Choose photo": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir foto"
+          }
+        }
+      }
+    },
+    "Classic endurance scale tied to breathing, fatigue, and heart rate.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escala clásica de resistencia ligada a la respiración, la fatiga y la frecuencia cardíaca."
+          }
+        }
+      }
+    },
+    "Clear all": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar todo"
+          }
+        }
+      }
+    },
+    "Clear search": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar búsqueda"
+          }
+        }
+      }
+    },
+    "Close": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar"
+          }
+        }
+      }
+    },
+    "Combine": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Combinar"
+          }
+        }
+      }
+    },
+    "Combine into Meal": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Combinar en una comida"
+          }
+        }
+      }
+    },
+    "Confirm allergens": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirmar alérgenos"
+          }
+        }
+      }
+    },
+    "Confirm which names to add. This is not a medical diagnosis and never means a food is safe.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirma qué nombres añadir. Esto no es un diagnóstico médico y nunca significa que un alimento sea seguro."
+          }
+        }
+      }
+    },
+    "Copies sets, weights, reps, RPE, units, and timers.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia series, pesos, repeticiones, RPE, unidades y temporizadores."
+          }
+        }
+      }
+    },
+    "Copy from day": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar desde un día"
+          }
+        }
+      }
+    },
+    "Copy to %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar a %@"
+          }
+        }
+      }
+    },
+    "Core": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Core"
+          }
+        }
+      }
+    },
+    "Couldn't add ingredient": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo añadir el ingrediente"
+          }
+        }
+      }
+    },
+    "Create exercise": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crear ejercicio"
+          }
+        }
+      }
+    },
+    "Credit bank": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saldo de créditos"
+          }
+        }
+      }
+    },
+    "Credit packs": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paquetes de créditos"
+          }
+        }
+      }
+    },
+    "Credits added": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Créditos añadidos"
+          }
+        }
+      }
+    },
+    "Current plan": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plan actual"
+          }
+        }
+      }
+    },
+    "Custom": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personalizado"
+          }
+        }
+      }
+    },
+    "Custom Water Amount": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cantidad de agua personalizada"
+          }
+        }
+      }
+    },
+    "Custom amount": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cantidad personalizada"
+          }
+        }
+      }
+    },
+    "Custom minutes": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minutos personalizados"
+          }
+        }
+      }
+    },
+    "Custom timed activity · calorie estimate uses a general activity rate": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actividad cronometrada personalizada · la estimación de calorías usa una tasa de actividad general"
+          }
+        }
+      }
+    },
+    "Customize": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personalizar"
+          }
+        }
+      }
+    },
+    "Customize the Home + button food menu. Water and fasting stay separate when enabled. This does not change app-icon Quick Actions.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personaliza el menú de comida del botón + de Inicio. El agua y el ayuno se mantienen aparte cuando están activados. Esto no cambia las acciones rápidas del icono de la app."
+          }
+        }
+      }
+    },
+    "Daily Targets": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Objetivos diarios"
+          }
+        }
+      }
+    },
+    "Daily Water Goal": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Objetivo diario de agua"
+          }
+        }
+      }
+    },
+    "Daily allowance": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cupo diario"
+          }
+        }
+      }
+    },
+    "Date (YYYY-MM-DD)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fecha (AAAA-MM-DD)"
+          }
+        }
+      }
+    },
+    "Date range": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rango de fechas"
+          }
+        }
+      }
+    },
+    "Default / Auto": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Predeterminado / Automático"
+          }
+        }
+      }
+    },
+    "Delete Allergen?": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Eliminar alérgeno?"
+          }
+        }
+      }
+    },
+    "Delete Food Log": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar registro de comida"
+          }
+        }
+      }
+    },
+    "Delete Food Log?": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Eliminar registro de comida?"
+          }
+        }
+      }
+    },
+    "Delete Workout Log?": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Eliminar registro de entrenamiento?"
+          }
+        }
+      }
+    },
+    "Delete exercise": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar ejercicio"
+          }
+        }
+      }
+    },
+    "Delete this custom exercise?": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Eliminar este ejercicio personalizado?"
+          }
+        }
+      }
+    },
+    "Delts": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deltoides"
+          }
+        }
+      }
+    },
+    "Describe the food": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Describe el alimento"
+          }
+        }
+      }
+    },
+    "Describe what you did. Review the details before adding them to your workout diary.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Describe lo que hiciste. Revisa los detalles antes de añadirlos a tu diario de entrenamiento."
+          }
+        }
+      }
+    },
+    "Describe workout": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Describir entrenamiento"
+          }
+        }
+      }
+    },
+    "Deselect All": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deseleccionar todo"
+          }
+        }
+      }
+    },
+    "Discard timer": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descartar temporizador"
+          }
+        }
+      }
+    },
+    "Double tap to add to this day": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca dos veces para añadir a este día"
+          }
+        }
+      }
+    },
+    "Double tap to remove from this day": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca dos veces para quitar de este día"
+          }
+        }
+      }
+    },
+    "Each meal continues until the next one starts. Late Snack continues overnight until Breakfast starts. You can still change the meal manually before logging.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada comida continúa hasta que empieza la siguiente. El snack nocturno continúa durante la noche hasta que empieza el desayuno. Aún puedes cambiar la comida manualmente antes de registrarla."
+          }
+        }
+      }
+    },
+    "Eco-Score": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eco-Score"
+          }
+        }
+      }
+    },
+    "Edit": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editar"
+          }
+        }
+      }
+    },
+    "Edit Ingredient": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editar ingrediente"
+          }
+        }
+      }
+    },
+    "Edit description": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editar descripción"
+          }
+        }
+      }
+    },
+    "Edit exercise": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editar ejercicio"
+          }
+        }
+      }
+    },
+    "Effort": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esfuerzo"
+          }
+        }
+      }
+    },
+    "Effort (moderate if unspecified)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esfuerzo (moderado si no se indica)"
+          }
+        }
+      }
+    },
+    "Enable Image Fallback": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar respaldo de imágenes"
+          }
+        }
+      }
+    },
+    "Enable STT Fallback": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar respaldo de voz a texto"
+          }
+        }
+      }
+    },
+    "Enable Text Fallback": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar respaldo de texto"
+          }
+        }
+      }
+    },
+    "Enter a whole number from 0 to 999,999.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Introduce un número entero de 0 a 999.999."
+          }
+        }
+      }
+    },
+    "Estimated burn: %lld kcal": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calorías quemadas estimadas: %lld kcal"
+          }
+        }
+      }
+    },
+    "Every AI feature": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todas las funciones de IA"
+          }
+        }
+      }
+    },
+    "Exercise": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ejercicio"
+          }
+        }
+      }
+    },
+    "Exercise library": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biblioteca de ejercicios"
+          }
+        }
+      }
+    },
+    "Export": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exportar"
+          }
+        }
+      }
+    },
+    "Export Food Diary": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exportar diario de comidas"
+          }
+        }
+      }
+    },
+    "Exports your logged meals, nutrition totals, and water intake as a file you can save or send to another app.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exporta tus comidas registradas, los totales nutricionales y el consumo de agua como un archivo que puedes guardar o enviar a otra app."
+          }
+        }
+      }
+    },
+    "Extra High": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muy alto"
+          }
+        }
+      }
+    },
+    "Extracts possible sensitizations from an ISAC/ALEX-style allergy blood-test report for local checks only. Not a medical diagnosis — confirm every name before adding.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extrae posibles sensibilizaciones de un informe de análisis de sangre de alergias tipo ISAC/ALEX, solo para comprobaciones locales. No es un diagnóstico médico: confirma cada nombre antes de añadirlo."
+          }
+        }
+      }
+    },
+    "Fast (%@)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rápido (%@)"
+          }
+        }
+      }
+    },
+    "Favorites": {
+      "comment": "Add menu logging method",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favoritos"
+          }
+        }
+      }
+    },
+    "Finding exercises…": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando ejercicios…"
+          }
+        }
+      }
+    },
+    "Flat Menu": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menú plano"
+          }
+        }
+      }
+    },
+    "Focus each day around one major muscle or body region.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Centra cada día en un músculo principal o una región del cuerpo."
+          }
+        }
+      }
+    },
+    "Follow on Instagram": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seguir en Instagram"
+          }
+        }
+      }
+    },
+    "Food Add Menu": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menú para añadir comida"
+          }
+        }
+      }
+    },
+    "Food entries": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registros de comida"
+          }
+        }
+      }
+    },
+    "Format": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Formato"
+          }
+        }
+      }
+    },
+    "Frequent": {
+      "comment": "Add menu logging method",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frecuentes"
+          }
+        }
+      }
+    },
+    "From": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desde"
+          }
+        }
+      }
+    },
+    "Front upper arm": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parte frontal del brazo"
+          }
+        }
+      }
+    },
+    "Fud AI": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fud AI"
+          }
+        }
+      }
+    },
+    "Fud AI is free with your own API keys (BYOK) — and always will be. If juggling keys feels confusing, Plus and Pro plans run the AI for you with no keys to manage. Totally optional, nothing changes unless you switch.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fud AI es gratis con tus propias claves API (BYOK), y siempre lo será. Si manejar claves te resulta confuso, los planes Plus y Pro ejecutan la IA por ti sin claves que gestionar. Es totalmente opcional; nada cambia a menos que te cambies."
+          }
+        }
+      }
+    },
+    "Fud AI is live on Product Hunt": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fud AI ya está en Product Hunt"
+          }
+        }
+      }
+    },
+    "Fud AI runs the models. No API keys, no setup.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fud AI ejecuta los modelos. Sin claves API ni configuración."
+          }
+        }
+      }
+    },
+    "General effort scale for strength, conditioning, and mixed sessions.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escala de esfuerzo general para sesiones de fuerza, acondicionamiento y mixtas."
+          }
+        }
+      }
+    },
+    "Goal Reached": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Objetivo alcanzado"
+          }
+        }
+      }
+    },
+    "Got it": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entendido"
+          }
+        }
+      }
+    },
+    "Grip and lower arm": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agarre y antebrazo"
+          }
+        }
+      }
+    },
+    "Group": {
+      "comment": "Fallback add menu group name",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grupo"
+          }
+        }
+      }
+    },
+    "Group Name": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre del grupo"
+          }
+        }
+      }
+    },
+    "Group Order": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orden de los grupos"
+          }
+        }
+      }
+    },
+    "Group exercises into push, pull, legs, and core work.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agrupa los ejercicios en empuje, tirón, piernas y core."
+          }
+        }
+      }
+    },
+    "Groups": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grupos"
+          }
+        }
+      }
+    },
+    "Hi, I'm Apoorv 👋": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hola, soy Apoorv 👋"
+          }
+        }
+      }
+    },
+    "Hidden Methods": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Métodos ocultos"
+          }
+        }
+      }
+    },
+    "High": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alto"
+          }
+        }
+      }
+    },
+    "Hips and glutes": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cadera y glúteos"
+          }
+        }
+      }
+    },
+    "History": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historial"
+          }
+        }
+      }
+    },
+    "Hosted (Plus/Pro)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alojado (Plus/Pro)"
+          }
+        }
+      }
+    },
+    "Hosted AI accepts up to %lld photos per request.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La IA alojada acepta hasta %lld fotos por solicitud."
+          }
+        }
+      }
+    },
+    "Hosted AI is busy. Please wait a moment and try again.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La IA alojada está ocupada. Espera un momento e inténtalo de nuevo."
+          }
+        }
+      }
+    },
+    "Hosted AI rejected this request. Please update Fud AI and try again.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La IA alojada rechazó esta solicitud. Actualiza Fud AI e inténtalo de nuevo."
+          }
+        }
+      }
+    },
+    "Hosted AI request failed (%lld).": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falló la solicitud a la IA alojada (%lld)."
+          }
+        }
+      }
+    },
+    "Hosted Plan": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plan alojado"
+          }
+        }
+      }
+    },
+    "Hours": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horas"
+          }
+        }
+      }
+    },
+    "How Progressive Meal works": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cómo funciona la comida progresiva"
+          }
+        }
+      }
+    },
+    "How long?": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Cuánto tiempo?"
+          }
+        }
+      }
+    },
+    "How much water?": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Cuánta agua?"
+          }
+        }
+      }
+    },
+    "I build Fud AI on my own, in the open. Come say hi, share feedback, or just follow along — it genuinely helps.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desarrollo Fud AI por mi cuenta y de forma abierta. Pasa a saludar, comparte tus comentarios o simplemente sigue el proyecto; de verdad ayuda."
+          }
+        }
+      }
+    },
+    "Import Complete": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importación completada"
+          }
+        }
+      }
+    },
+    "Import Food Diary": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importar diario de comidas"
+          }
+        }
+      }
+    },
+    "Import Preview": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vista previa de la importación"
+          }
+        }
+      }
+    },
+    "Import from lab report": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importar desde informe de laboratorio"
+          }
+        }
+      }
+    },
+    "Imported": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importado"
+          }
+        }
+      }
+    },
+    "Imported %lld diary entries.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se importaron %lld registros del diario."
+          }
+        }
+      }
+    },
+    "Imported from Apple Health and Apple Watch. Read-only here — edit or delete them in the Health app. These sessions do not affect Energy Burn goals.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importados de Apple Health y Apple Watch. Aquí son de solo lectura: edítalos o elimínalos en la app Salud. Estas sesiones no afectan a los objetivos de Quema de energía."
+          }
+        }
+      }
+    },
+    "Ingredient": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingrediente"
+          }
+        }
+      }
+    },
+    "Ingredient Label": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Etiqueta de ingredientes"
+          }
+        }
+      }
+    },
+    "Ingredient changes update the meal's calorie and macro totals automatically.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los cambios en los ingredientes actualizan automáticamente las calorías y los macros totales de la comida."
+          }
+        }
+      }
+    },
+    "Ingredients": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingredientes"
+          }
+        }
+      }
+    },
+    "Inner thigh": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parte interna del muslo"
+          }
+        }
+      }
+    },
+    "Issues & Injuries": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Problemas y lesiones"
+          }
+        }
+      }
+    },
+    "Keep BYOK (free)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mantener BYOK (gratis)"
+          }
+        }
+      }
+    },
+    "Labels": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Etiquetas"
+          }
+        }
+      }
+    },
+    "Last time: %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Última vez: %@"
+          }
+        }
+      }
+    },
+    "Legs / Hips": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Piernas / Cadera"
+          }
+        }
+      }
+    },
+    "Loading plans…": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cargando planes…"
+          }
+        }
+      }
+    },
+    "Log %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registrar %@"
+          }
+        }
+      }
+    },
+    "Log a workout first": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Primero registra un entrenamiento"
+          }
+        }
+      }
+    },
+    "Low": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bajo"
+          }
+        }
+      }
+    },
+    "Lower leg": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pierna inferior"
+          }
+        }
+      }
+    },
+    "Max": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Máximo"
+          }
+        }
+      }
+    },
+    "May Contain": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puede contener"
+          }
+        }
+      }
+    },
+    "Meal Photos": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotos de comidas"
+          }
+        }
+      }
+    },
+    "Meal Times": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horarios de comidas"
+          }
+        }
+      }
+    },
+    "Medium": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medio"
+          }
+        }
+      }
+    },
+    "Meet the developer": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conoce al desarrollador"
+          }
+        }
+      }
+    },
+    "Minimal": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mínimo"
+          }
+        }
+      }
+    },
+    "Minutes": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minutos"
+          }
+        }
+      }
+    },
+    "Mix compound strength days with accessory hypertrophy work.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Combina días de fuerza con ejercicios compuestos y trabajo accesorio de hipertrofia."
+          }
+        }
+      }
+    },
+    "Moderate (%@)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moderado (%@)"
+          }
+        }
+      }
+    },
+    "Monthly": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mensual"
+          }
+        }
+      }
+    },
+    "Muscles & equipment": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Músculos y equipamiento"
+          }
+        }
+      }
+    },
+    "NOVA Group": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grupo NOVA"
+          }
+        }
+      }
+    },
+    "Neck": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuello"
+          }
+        }
+      }
+    },
+    "New Group": {
+      "comment": "Default name for new add menu group",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuevo grupo"
+          }
+        }
+      }
+    },
+    "No Apple Health workouts in this range": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay entrenamientos de Apple Health en este periodo"
+          }
+        }
+      }
+    },
+    "No ingredient breakdown yet": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay desglose de ingredientes"
+          }
+        }
+      }
+    },
+    "No lift history yet": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay historial de levantamientos"
+          }
+        }
+      }
+    },
+    "No matching exercises.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay ejercicios que coincidan."
+          }
+        }
+      }
+    },
+    "No previous workouts": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay entrenamientos anteriores"
+          }
+        }
+      }
+    },
+    "No saved workouts yet.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay entrenamientos guardados."
+          }
+        }
+      }
+    },
+    "No sensitivities added": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se añadieron sensibilidades"
+          }
+        }
+      }
+    },
+    "No workouts logged": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay entrenamientos registrados"
+          }
+        }
+      }
+    },
+    "None": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ninguno"
+          }
+        }
+      }
+    },
+    "Not added": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No añadido"
+          }
+        }
+      }
+    },
+    "Not now": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahora no"
+          }
+        }
+      }
+    },
+    "Not selected": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No seleccionado"
+          }
+        }
+      }
+    },
+    "Note for food analysis (optional)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nota para el análisis de la comida (opcional)"
+          }
+        }
+      }
+    },
+    "Nothing to export": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay nada que exportar"
+          }
+        }
+      }
+    },
+    "Notifies you once when the active fast reaches its goal. The timer continues until you end it.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te avisa una vez cuando el ayuno activo alcanza su objetivo. El temporizador continúa hasta que lo termines."
+          }
+        }
+      }
+    },
+    "Nutri-Score": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nutri-Score"
+          }
+        }
+      }
+    },
+    "Nutrient Averages": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Promedios de nutrientes"
+          }
+        }
+      }
+    },
+    "Off by default. When enabled, Walking and Running appear in the Workouts + menu for quick outdoor logging.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivado por defecto. Al activarlo, Caminar y Correr aparecen en el menú + de Entrenamientos para registrar rápido actividades al aire libre."
+          }
+        }
+      }
+    },
+    "Off until you turn it on. Uses the iCloud account on this iPhone — change Apple ID in iOS Settings if you need a different account. API keys stay on the device.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivada hasta que la actives. Usa la cuenta de iCloud de este iPhone; cambia de Apple ID en Ajustes de iOS si necesitas otra cuenta. Las claves API permanecen en el dispositivo."
+          }
+        }
+      }
+    },
+    "One-time top-ups, spent only while a plan is active.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recargas únicas que solo se usan mientras haya un plan activo."
+          }
+        }
+      }
+    },
+    "Only your request is sent": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo se envía tu solicitud"
+          }
+        }
+      }
+    },
+    "Open your first configurable Fud AI quick action.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre tu primera acción rápida configurable de Fud AI."
+          }
+        }
+      }
+    },
+    "Open your second configurable Fud AI quick action.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre tu segunda acción rápida configurable de Fud AI."
+          }
+        }
+      }
+    },
+    "Open your third configurable Fud AI quick action.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre tu tercera acción rápida configurable de Fud AI."
+          }
+        }
+      }
+    },
+    "OpenRouter Reasoning Effort": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esfuerzo de razonamiento de OpenRouter"
+          }
+        }
+      }
+    },
+    "Opens YouTube search — not an official Fud AI video": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre una búsqueda en YouTube; no es un video oficial de Fud AI"
+          }
+        }
+      }
+    },
+    "Opens exercise instructions": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre las instrucciones del ejercicio"
+          }
+        }
+      }
+    },
+    "Opens imported Apple Health workout history": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre el historial de entrenamientos importados de Apple Health"
+          }
+        }
+      }
+    },
+    "Opens set weight, reps and RPE input": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre la entrada de peso, repeticiones y RPE de la serie"
+          }
+        }
+      }
+    },
+    "Opens your workout diary": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre tu diario de entrenamiento"
+          }
+        }
+      }
+    },
+    "Optional: let us handle the AI keys": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opcional: deja que gestionemos las claves de IA"
+          }
+        }
+      }
+    },
+    "Out of Hosted Actions": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin acciones alojadas disponibles"
+          }
+        }
+      }
+    },
+    "Outer hip": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parte externa de la cadera"
+          }
+        }
+      }
+    },
+    "Package": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Envase"
+          }
+        }
+      }
+    },
+    "Pair chest/back, shoulders/arms, legs, and core days.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Combina días de pecho/espalda, hombros/brazos, piernas y core."
+          }
+        }
+      }
+    },
+    "Pair opposing muscle groups for balanced sessions.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Combina grupos musculares opuestos para sesiones equilibradas."
+          }
+        }
+      }
+    },
+    "Paste your %@ API key": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pega tu clave API de %@"
+          }
+        }
+      }
+    },
+    "Paste your %@ API key in the field above. The hint text is not a key.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pega tu clave API de %@ en el campo de arriba. El texto de ayuda no es una clave."
+          }
+        }
+      }
+    },
+    "Pause": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pausar"
+          }
+        }
+      }
+    },
+    "Pecs": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pectorales"
+          }
+        }
+      }
+    },
+    "Photo": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foto"
+          }
+        }
+      }
+    },
+    "Photo %lld": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foto %lld"
+          }
+        }
+      }
+    },
+    "Photo 1 → 2 → 3 follows each ingredient added to the same plate. Visible scale differences become ingredient weights.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foto 1 → 2 → 3 sigue cada ingrediente añadido al mismo plato. Las diferencias visibles en la báscula se convierten en el peso de cada ingrediente."
+          }
+        }
+      }
+    },
+    "Photo, voice and text logging, Coach, and workout AI.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registro por foto, voz y texto, Coach e IA de entrenamientos."
+          }
+        }
+      }
+    },
+    "Photos": {
+      "comment": "Add menu logging method",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotos"
+          }
+        }
+      }
+    },
+    "Pick a photo or PDF of your allergy blood-test report.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige una foto o un PDF de tu informe de análisis de sangre de alergias."
+          }
+        }
+      }
+    },
+    "Pick body parts": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir partes del cuerpo"
+          }
+        }
+      }
+    },
+    "Pick one to four nutrients for the Home summary row.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige de uno a cuatro nutrientes para la fila de resumen de Inicio."
+          }
+        }
+      }
+    },
+    "Pick one to four nutrients. Water is shown after them while tracking is enabled.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige de uno a cuatro nutrientes. El agua se muestra después de ellos mientras el seguimiento esté activado."
+          }
+        }
+      }
+    },
+    "Plan": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plan"
+          }
+        }
+      }
+    },
+    "Plans are unavailable right now.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los planes no están disponibles en este momento."
+          }
+        }
+      }
+    },
+    "Plus": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plus"
+          }
+        }
+      }
+    },
+    "Possible sensitizations": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Posibles sensibilizaciones"
+          }
+        }
+      }
+    },
+    "Posterior thigh": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parte posterior del muslo"
+          }
+        }
+      }
+    },
+    "Press Return to add.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulsa Intro para añadir."
+          }
+        }
+      }
+    },
+    "Preview %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vista previa de %@"
+          }
+        }
+      }
+    },
+    "Privacy": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacidad"
+          }
+        }
+      }
+    },
+    "Pro": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro"
+          }
+        }
+      }
+    },
+    "Product Information": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Información del producto"
+          }
+        }
+      }
+    },
+    "Progress view": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vista de progreso"
+          }
+        }
+      }
+    },
+    "Progressive Meal": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comida progresiva"
+          }
+        }
+      }
+    },
+    "Purchase": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comprar"
+          }
+        }
+      }
+    },
+    "Purchases restored.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compras restauradas."
+          }
+        }
+      }
+    },
+    "Quadriceps": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuádriceps"
+          }
+        }
+      }
+    },
+    "Quick Action 1": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acción rápida 1"
+          }
+        }
+      }
+    },
+    "Quick Action 2": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acción rápida 2"
+          }
+        }
+      }
+    },
+    "Quick Action 3": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acción rápida 3"
+          }
+        }
+      }
+    },
+    "Quick Actions": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acciones rápidas"
+          }
+        }
+      }
+    },
+    "RPE 1–10": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RPE 1–10"
+          }
+        }
+      }
+    },
+    "RPE Scale": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escala RPE"
+          }
+        }
+      }
+    },
+    "RPE scale": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escala RPE"
+          }
+        }
+      }
+    },
+    "Range": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rango"
+          }
+        }
+      }
+    },
+    "Range 0–10 · decimals allowed": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rango 0–10 · se permiten decimales"
+          }
+        }
+      }
+    },
+    "Range 1–10 · decimals allowed": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rango 1–10 · se permiten decimales"
+          }
+        }
+      }
+    },
+    "Range 6–20 · whole numbers": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rango 6–20 · números enteros"
+          }
+        }
+      }
+    },
+    "Reading lab report…": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leyendo el informe de laboratorio…"
+          }
+        }
+      }
+    },
+    "Reads weight, nutrition, energy, and workouts from Apple Health. Apple Watch and iPhone workouts appear read-only in Workouts and Progress. Fud AI’s calculated diary burns are written separately and excluded from Energy Burn goals.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lee peso, nutrición, energía y entrenamientos de Apple Health. Los entrenamientos del Apple Watch y del iPhone aparecen como solo lectura en Entrenamientos y Progreso. Las calorías quemadas que calcula Fud AI en el diario se escriben por separado y se excluyen de los objetivos de Quema de energía."
+          }
+        }
+      }
+    },
+    "Ready": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listo"
+          }
+        }
+      }
+    },
+    "Recent": {
+      "comment": "Add menu logging method",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recientes"
+          }
+        }
+      }
+    },
+    "Remove %@ from your sensitivities?": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Quitar %@ de tus sensibilidades?"
+          }
+        }
+      }
+    },
+    "Remove Ingredient": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar ingrediente"
+          }
+        }
+      }
+    },
+    "Remove exercise": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar ejercicio"
+          }
+        }
+      }
+    },
+    "Remove from Favorites": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar de favoritos"
+          }
+        }
+      }
+    },
+    "Remove from day": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar del día"
+          }
+        }
+      }
+    },
+    "Removes this exercise from Saved": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quita este ejercicio de Guardados"
+          }
+        }
+      }
+    },
+    "Removes this exercise from the selected day": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quita este ejercicio del día seleccionado"
+          }
+        }
+      }
+    },
+    "Replace This Date Range": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reemplazar este rango de fechas"
+          }
+        }
+      }
+    },
+    "Replace photo": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reemplazar foto"
+          }
+        }
+      }
+    },
+    "Replace removes existing food logs only within the exported date range, then recreates that range from this file. Water logs in that range are also replaced when the file includes water data. Older food-only files leave water logs unchanged. Matching entries keep their photos. Add keeps the current diary and creates duplicates as new entries.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reemplazar elimina los registros de comida existentes solo dentro del rango de fechas exportado y luego recrea ese rango a partir de este archivo. Los registros de agua de ese rango también se reemplazan cuando el archivo incluye datos de agua. Los archivos antiguos que solo tienen comida no cambian los registros de agua. Los registros que coinciden conservan sus fotos. Añadir conserva el diario actual y crea los duplicados como registros nuevos."
+          }
+        }
+      }
+    },
+    "Report an Issue on Discord": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informar de un problema en Discord"
+          }
+        }
+      }
+    },
+    "Report an Issue on GitHub": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informar de un problema en GitHub"
+          }
+        }
+      }
+    },
+    "Reprocess": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reprocesar"
+          }
+        }
+      }
+    },
+    "Reprocess with AI": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reprocesar con IA"
+          }
+        }
+      }
+    },
+    "Reps": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repeticiones"
+          }
+        }
+      }
+    },
+    "Request Timeout": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiempo de espera de la solicitud"
+          }
+        }
+      }
+    },
+    "Request a Feature on Discord": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solicitar una función en Discord"
+          }
+        }
+      }
+    },
+    "Request a Feature on GitHub": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solicitar una función en GitHub"
+          }
+        }
+      }
+    },
+    "Requires iOS 26 or later": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Requiere iOS 26 o posterior"
+          }
+        }
+      }
+    },
+    "Reset to Default": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer valores predeterminados"
+          }
+        }
+      }
+    },
+    "Resets at midnight UTC. Credit packs cover busy days.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se reinicia a medianoche UTC. Los paquetes de créditos cubren los días de más uso."
+          }
+        }
+      }
+    },
+    "Restart timer": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reiniciar temporizador"
+          }
+        }
+      }
+    },
+    "Restore Default Times": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaurar horarios predeterminados"
+          }
+        }
+      }
+    },
+    "Restore Purchases": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaurar compras"
+          }
+        }
+      }
+    },
+    "Resume": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reanudar"
+          }
+        }
+      }
+    },
+    "Review workout": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revisar entrenamiento"
+          }
+        }
+      }
+    },
+    "Rows and upper-back thickness": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remos y grosor de la espalda alta"
+          }
+        }
+      }
+    },
+    "Running": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Correr"
+          }
+        }
+      }
+    },
+    "Save %lld%%": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahorra %lld%%"
+          }
+        }
+      }
+    },
+    "Save exercise": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar ejercicio"
+          }
+        }
+      }
+    },
+    "Save to Favorites": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar en favoritos"
+          }
+        }
+      }
+    },
+    "Search workouts": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar entrenamientos"
+          }
+        }
+      }
+    },
+    "See Plus & Pro plans": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ver planes Plus y Pro"
+          }
+        }
+      }
+    },
+    "Select All": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seleccionar todo"
+          }
+        }
+      }
+    },
+    "Select all": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seleccionar todo"
+          }
+        }
+      }
+    },
+    "Selected": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seleccionado"
+          }
+        }
+      }
+    },
+    "Selected body fat": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa corporal seleccionada"
+          }
+        }
+      }
+    },
+    "Selected date": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fecha seleccionada"
+          }
+        }
+      }
+    },
+    "Selected weight": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peso seleccionado"
+          }
+        }
+      }
+    },
+    "Sensitivities": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sensibilidades"
+          }
+        }
+      }
+    },
+    "Set %lld": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serie %lld"
+          }
+        }
+      }
+    },
+    "Sets": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Series"
+          }
+        }
+      }
+    },
+    "Shows how this provider is used": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muestra cómo se usa este proveedor"
+          }
+        }
+      }
+    },
+    "Shows past logged sets for this exercise": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muestra las series registradas anteriormente para este ejercicio"
+          }
+        }
+      }
+    },
+    "Slow (%@)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lento (%@)"
+          }
+        }
+      }
+    },
+    "Spinal erectors": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erectores espinales"
+          }
+        }
+      }
+    },
+    "Split work by pushing and pulling patterns across the body.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Divide el trabajo según los patrones de empuje y tirón de todo el cuerpo."
+          }
+        }
+      }
+    },
+    "Start over": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empezar de nuevo"
+          }
+        }
+      }
+    },
+    "Stop & save": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detener y guardar"
+          }
+        }
+      }
+    },
+    "Stop and save an exercise timer, or enter reps for a strength exercise on %@, before calculating workout calories.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detén y guarda el temporizador de un ejercicio, o introduce las repeticiones de un ejercicio de fuerza el %@, antes de calcular las calorías del entrenamiento."
+          }
+        }
+      }
+    },
+    "Subscribe or Upgrade": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suscribirse o mejorar plan"
+          }
+        }
+      }
+    },
+    "Subscribe to %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suscribirse a %@"
+          }
+        }
+      }
+    },
+    "Subscribe to Plus or Pro to use Hosted AI, or switch to BYOK in Settings → AI Access.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suscríbete a Plus o Pro para usar la IA alojada, o cambia a BYOK en Ajustes → Acceso a IA."
+          }
+        }
+      }
+    },
+    "Swipe left to delete": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desliza a la izquierda para eliminar"
+          }
+        }
+      }
+    },
+    "Switch to BYOK": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambiar a BYOK"
+          }
+        }
+      }
+    },
+    "Switches back to the workout library": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vuelve a la biblioteca de entrenamientos"
+          }
+        }
+      }
+    },
+    "TARGET MUSCLES": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MÚSCULOS OBJETIVO"
+          }
+        }
+      }
+    },
+    "Target Muscles": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Músculos objetivo"
+          }
+        }
+      }
+    },
+    "Target muscles": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Músculos objetivo"
+          }
+        }
+      }
+    },
+    "Terms": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Términos"
+          }
+        }
+      }
+    },
+    "Text": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texto"
+          }
+        }
+      }
+    },
+    "That request is too large for Hosted AI. Try a smaller photo or shorter text.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esa solicitud es demasiado grande para la IA alojada. Prueba con una foto más pequeña o un texto más corto."
+          }
+        }
+      }
+    },
+    "There are no food or water entries in the selected range.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay registros de comida ni de agua en el rango seleccionado."
+          }
+        }
+      }
+    },
+    "These logging methods are not shown on the Home + menu.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estos métodos de registro no se muestran en el menú + de Inicio."
+          }
+        }
+      }
+    },
+    "This removes the exercise from your library. Logged workouts keep their history.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto quita el ejercicio de tu biblioteca. Los entrenamientos registrados conservan su historial."
+          }
+        }
+      }
+    },
+    "This removes the food from your diary. Saved favorites are kept.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto quita la comida de tu diario. Los favoritos guardados se conservan."
+          }
+        }
+      }
+    },
+    "This removes the workout from your diary. Saved exercises are kept.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto quita el entrenamiento de tu diario. Los ejercicios guardados se conservan."
+          }
+        }
+      }
+    },
+    "This will permanently delete all your data including food logs, weight entries, workout history, and profile. This action cannot be undone.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto eliminará permanentemente todos tus datos, incluidos los registros de comida, los registros de peso, el historial de entrenamientos y el perfil. Esta acción no se puede deshacer."
+          }
+        }
+      }
+    },
+    "This will permanently delete all your logged food entries. Your profile, weight entries, favorites, and workout history will be kept. This action cannot be undone.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto eliminará permanentemente todos tus registros de comida. Tu perfil, tus registros de peso, tus favoritos y tu historial de entrenamientos se conservarán. Esta acción no se puede deshacer."
+          }
+        }
+      }
+    },
+    "Timer for %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Temporizador de %@"
+          }
+        }
+      }
+    },
+    "To": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hasta"
+          }
+        }
+      }
+    },
+    "Today (UTC)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoy (UTC)"
+          }
+        }
+      }
+    },
+    "Train the whole body each workout with broad coverage.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrena todo el cuerpo en cada sesión con una cobertura amplia."
+          }
+        }
+      }
+    },
+    "Training Split": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "División de entrenamiento"
+          }
+        }
+      }
+    },
+    "Transcribing…": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transcribiendo…"
+          }
+        }
+      }
+    },
+    "Try a different muscle, equipment, or search — or create your own exercise.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prueba con otro músculo, equipamiento o búsqueda, o crea tu propio ejercicio."
+          }
+        }
+      }
+    },
+    "Type an allergen": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escribe un alérgeno"
+          }
+        }
+      }
+    },
+    "Unable to Import": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo importar"
+          }
+        }
+      }
+    },
+    "Unsave": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar de guardados"
+          }
+        }
+      }
+    },
+    "Unsave exercise": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar ejercicio de guardados"
+          }
+        }
+      }
+    },
+    "Upgrade to Pro": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mejorar a Pro"
+          }
+        }
+      }
+    },
+    "Upper Body": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tren superior"
+          }
+        }
+      }
+    },
+    "Upper back and neck line": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Espalda alta y línea del cuello"
+          }
+        }
+      }
+    },
+    "Usage is metered by Fud AI’s server per AI call and resets at midnight UTC. Coach replies that need several tool calls use several actions.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El servidor de Fud AI mide el uso por cada llamada a la IA y se reinicia a medianoche UTC. Las respuestas del Coach que necesitan varias llamadas a herramientas usan varias acciones."
+          }
+        }
+      }
+    },
+    "Use + to pick %@ workouts for this day": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usa + para elegir entrenamientos de %@ para este día"
+          }
+        }
+      }
+    },
+    "Use Separate Text Provider": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar un proveedor de texto aparte"
+          }
+        }
+      }
+    },
+    "Use preset wheel": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar rueda predefinida"
+          }
+        }
+      }
+    },
+    "Use this when every photo shows the same plate after another ingredient is added. Keep the photos in order and make the scale display visible. Fud AI uses the difference between consecutive scale totals to estimate each new ingredient. Leave this off when the photos are only different angles of the same meal.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Úsalo cuando cada foto muestre el mismo plato después de añadir otro ingrediente. Mantén las fotos en orden y que se vea la pantalla de la báscula. Fud AI usa la diferencia entre los totales consecutivos de la báscula para estimar cada ingrediente nuevo. Déjalo desactivado cuando las fotos solo sean ángulos distintos de la misma comida."
+          }
+        }
+      }
+    },
+    "Use your own split text for plan prompts and filtering.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usa tu propio texto de división para las indicaciones del plan y el filtrado."
+          }
+        }
+      }
+    },
+    "Used for local label checks. Swipe left to delete. Changes save automatically. Results never indicate that a food is safe.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se usa para comprobaciones locales de etiquetas. Desliza a la izquierda para eliminar. Los cambios se guardan automáticamente. Los resultados nunca indican que un alimento sea seguro."
+          }
+        }
+      }
+    },
+    "Uses saved exercise duration and intensity, or strength sets, repetitions and load, with current body weight": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usa la duración e intensidad guardadas del ejercicio, o las series, repeticiones y carga de fuerza, con tu peso corporal actual"
+          }
+        }
+      }
+    },
+    "View full photo": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ver foto completa"
+          }
+        }
+      }
+    },
+    "Vigorous": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vigoroso"
+          }
+        }
+      }
+    },
+    "Visible range minimum": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mínimo del rango visible"
+          }
+        }
+      }
+    },
+    "Voice reply": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Respuesta por voz"
+          }
+        }
+      }
+    },
+    "Voice workout": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrenamiento por voz"
+          }
+        }
+      }
+    },
+    "Walk & Run": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caminar y correr"
+          }
+        }
+      }
+    },
+    "Walking": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caminar"
+          }
+        }
+      }
+    },
+    "Watch on YouTube": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ver en YouTube"
+          }
+        }
+      }
+    },
+    "Water Tracking": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seguimiento de agua"
+          }
+        }
+      }
+    },
+    "Water Unit": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unidad de agua"
+          }
+        }
+      }
+    },
+    "Water entries": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registros de agua"
+          }
+        }
+      }
+    },
+    "Water is shown after your selected nutrients while Water Tracking is enabled.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El agua se muestra después de tus nutrientes seleccionados mientras el Seguimiento de agua esté activado."
+          }
+        }
+      }
+    },
+    "Water, %@, logged %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Water, %1$@, logged %2$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agua, %1$@, registrada %2$@"
+          }
+        }
+      }
+    },
+    "Water, shown after selected nutrients": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agua, se muestra después de los nutrientes seleccionados"
+          }
+        }
+      }
+    },
+    "We just launched. A vote helps more people find Fud AI.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acabamos de lanzarlo. Un voto ayuda a que más personas encuentren Fud AI."
+          }
+        }
+      }
+    },
+    "Weight (%@)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peso (%@)"
+          }
+        }
+      }
+    },
+    "Weight unit": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unidad de peso"
+          }
+        }
+      }
+    },
+    "What to copy": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qué copiar"
+          }
+        }
+      }
+    },
+    "What's included": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qué incluye"
+          }
+        }
+      }
+    },
+    "Whisper Base · MIT": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Whisper Base · MIT"
+          }
+        }
+      }
+    },
+    "WhisperKit 1.1.0 · MIT": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WhisperKit 1.1.0 · MIT"
+          }
+        }
+      }
+    },
+    "Width-focused back": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Espalda enfocada en amplitud"
+          }
+        }
+      }
+    },
+    "With no groups, enabled methods appear directly under +.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin grupos, los métodos activados aparecen directamente bajo +."
+          }
+        }
+      }
+    },
+    "With set details": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con detalles de las series"
+          }
+        }
+      }
+    },
+    "Without details": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin detalles"
+          }
+        }
+      }
+    },
+    "Workout description": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descripción del entrenamiento"
+          }
+        }
+      }
+    },
+    "Workout diary dates": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fechas del diario de entrenamiento"
+          }
+        }
+      }
+    },
+    "Workout log": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registro de entrenamientos"
+          }
+        }
+      }
+    },
+    "Workout split": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "División de entrenamiento"
+          }
+        }
+      }
+    },
+    "Yearly": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anual"
+          }
+        }
+      }
+    },
+    "You're out of hosted AI actions for today. Buy credits, upgrade, or switch to BYOK.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se te acabaron las acciones de IA alojada por hoy. Compra créditos, mejora tu plan o cambia a BYOK."
+          }
+        }
+      }
+    },
+    "Your answer": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu respuesta"
+          }
+        }
+      }
+    },
+    "Your coach can see your nutrition, goals, and workout diary. Ask about food, progress, recovery, or your training plan.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu coach puede ver tu nutrición, tus objetivos y tu diario de entrenamiento. Pregúntale sobre comida, progreso, recuperación o tu plan de entrenamiento."
+          }
+        }
+      }
+    },
+    "Your diary and history stay on this device. Cancel anytime in the App Store.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu diario y tu historial se quedan en este dispositivo. Cancela cuando quieras en el App Store."
+          }
+        }
+      }
+    },
+    "e.g. chicken is 180g, rice is 220g, use half the sauce": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "p. ej., el pollo pesa 180 g, el arroz 220 g, usa la mitad de la salsa"
+          }
+        }
+      }
+    },
+    "kg": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "kg"
+          }
+        }
+      }
+    },
+    "lbs": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "lb"
+          }
+        }
+      }
+    },
+    "min": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "min"
+          }
+        }
+      }
+    },
+    "per month": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "al mes"
+          }
+        }
+      }
+    },
+    "per year": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "al año"
+          }
+        }
+      }
+    },
+    "sec": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "s"
+          }
+        }
+      }
+    },
+    "workout": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "entrenamiento"
+          }
+        }
+      }
+    },
+    "workouts": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "entrenamientos"
+          }
+        }
+      }
+    },
+    "≈ %@ / mo": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "≈ %@ / mes"
+          }
+        }
+      }
+    },
+    "⏳": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⏳"
+          }
+        }
+      }
+    },
+    "💧": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "💧"
+          }
+        }
+      }
     }
   },
   "version": "1.1"
