@@ -3,6 +3,12 @@
   "strings": {
     "iCloud Backup": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia de seguridad en iCloud"
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -13,6 +19,12 @@
     },
     "Off until you turn it on. Uses the iCloud account on this iPhone. API keys stay on the device.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivada hasta que la actives. Usa la cuenta de iCloud de este iPhone. Las claves API permanecen en el dispositivo."
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -23,6 +35,12 @@
     },
     "Uploads your diary, workouts, fasting, photos, and settings to your iCloud. API keys stay on the phone.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sube tu diario, entrenamientos, ayunos, fotos y ajustes a tu iCloud. Las claves API permanecen en el teléfono."
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -33,6 +51,12 @@
     },
     "Restore backup?": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Restaurar copia de seguridad?"
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -43,6 +67,12 @@
     },
     "Restore it, or keep this phone.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restáurala o conserva los datos de este teléfono."
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -53,6 +83,12 @@
     },
     "Restore": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaurar"
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -63,6 +99,12 @@
     },
     "Keep this phone": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conservar este teléfono"
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -73,6 +115,12 @@
     },
     "Back up now": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hacer copia ahora"
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -83,6 +131,12 @@
     },
     "Restore now": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaurar ahora"
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -93,6 +147,12 @@
     },
     "Delete cloud backup": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar copia en la nube"
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -103,6 +163,12 @@
     },
     "Delete cloud backup?": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Eliminar copia en la nube?"
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -113,6 +179,12 @@
     },
     "Removes the Fud AI file from iCloud. This iPhone is unchanged.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina el archivo de Fud AI de iCloud. Este iPhone no cambia."
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -123,6 +195,12 @@
     },
     "Turn On": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar"
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -133,6 +211,12 @@
     },
     "Last backup: ": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Última copia: "
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -1523,6 +1607,12 @@
     "Baby Pink": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rosa bebé"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -1776,6 +1866,12 @@
     "Coral": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coral"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2241,6 +2337,12 @@
     "Graphite": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grafito"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2489,6 +2591,12 @@
     "Indigo": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Índigo"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2624,6 +2732,12 @@
     "Lavender": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lavanda"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2765,6 +2879,12 @@
     "Lime": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lima"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2906,6 +3026,12 @@
     "Mocha Brown": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Marrón moca"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3153,6 +3279,12 @@
     "Rose Gold": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oro rosa"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3934,6 +4066,12 @@
     },
     "": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ""
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3952,6 +4090,12 @@
       "comment": "An exclamation mark.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "!"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3982,6 +4126,12 @@
       "comment": "A dot separator between the whole and decimal parts of a weight.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4117,6 +4267,12 @@
     "Sky Cyan": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cian cielo"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4477,6 +4633,12 @@
     "Yellow": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amarillo"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4720,6 +4882,12 @@
       "comment": "A period.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "·"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4748,6 +4916,12 @@
     },
     "/ %@": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/ %@"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4784,6 +4958,12 @@
             "value": "/%1$@%2$@"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/%1$@%2$@"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4814,6 +4994,12 @@
       "comment": "A unit of measurement for body fat percentage.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4848,6 +5034,12 @@
             "value": "%1$@ / %2$lldg"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ / %2$lldg"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4879,6 +5071,12 @@
         "en": {
           "stringUnit": {
             "state": "new",
+            "value": "%1$@ %2$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
             "value": "%1$@ %2$@"
           }
         },
@@ -5020,6 +5218,12 @@
             "value": "%1$@%2$@ left"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@%2$@ restantes"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5060,6 +5264,12 @@
             "value": "%1$@%2$lld kcal"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@%2$lld kcal"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5088,6 +5298,12 @@
     },
     "%lld": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5121,6 +5337,12 @@
         "en": {
           "stringUnit": {
             "state": "new",
+            "value": "%1$lld %2$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
             "value": "%1$lld %2$@"
           }
         },
@@ -5158,6 +5380,12 @@
           "stringUnit": {
             "state": "new",
             "value": "%1$lld %2$@ · tap to view or delete"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld %2$@ · toca para ver o eliminar"
           }
         },
         "it": {
@@ -5542,6 +5770,12 @@
     },
     "%lld cal": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld cal"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5572,6 +5806,12 @@
       "comment": "A picker that lets the user select their height in centimeters.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld cm"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5600,6 +5840,12 @@
     },
     "%lld days": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld días"
+          }
+        },
         "it": {
           "variations": {
             "plural": {
@@ -5750,6 +5996,12 @@
             "value": "%1$lld food%2$@ will be added to %3$@."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se añadirán %1$lld alimento%2$@ a %3$@."
+          }
+        },
         "it": {
           "variations": {
             "plural": {
@@ -5846,6 +6098,12 @@
       "comment": "A picker that lets the user select a number of feet. The argument is the minimum value for the picker.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ft"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5874,6 +6132,12 @@
     },
     "%lld g": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld g"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5902,6 +6166,12 @@
     },
     "%lld in": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld in"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5930,6 +6200,12 @@
     },
     "%lld kcal": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld kcal"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5960,6 +6236,12 @@
       "comment": "A label displaying the user's daily caloric intake.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld kcal / día"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5994,6 +6276,12 @@
     },
     "%lld left": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld restantes"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6036,6 +6324,12 @@
             "value": "%1$lld/%2$lld left"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld/%2$lld restantes"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6076,6 +6370,12 @@
             "value": "%1$lld%2$@"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld%2$@"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6104,6 +6404,12 @@
     },
     "%lld%%": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld%%"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6196,6 +6502,12 @@
     },
     "•": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "•"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6226,6 +6538,12 @@
       "comment": "A label showing the serving size in grams, with a tooltip that shows the serving size in the selected serving unit. The argument is the string “%.1f”.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "~%@ g"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6254,6 +6572,12 @@
     },
     "0": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "0"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6282,6 +6606,12 @@
     },
     "27%": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "27%"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6528,6 +6858,12 @@
     },
     "About Adaptive Goals": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de los objetivos adaptativos"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6562,6 +6898,12 @@
     },
     "About Default to Grams": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de usar gramos por defecto"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6845,6 +7187,12 @@
       "comment": "A button that lets the user accept the app's Terms of Service and Privacy Policy.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aceptar y continuar"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6880,6 +7228,12 @@
     "Active": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activo"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7132,6 +7486,12 @@
     },
     "Adaptive Goals": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Objetivos adaptativos"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7498,6 +7858,12 @@
     "Added": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadido"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7533,6 +7899,12 @@
     "Added Sugar": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Azúcar añadido"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7681,6 +8053,12 @@
       "comment": "A description of the fastest pace.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exigente pero alcanzable. Requiere mucha disciplina."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7717,6 +8095,12 @@
       "comment": "A section header for the user's AI access settings.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acceso a IA"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7890,7 +8274,7 @@
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sugerencia de AI"
+            "value": "Sugerencia de IA"
           }
         },
         "fr": {
@@ -8014,6 +8398,12 @@
       "comment": "A description of the smart notification settings.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los cuatro recordatorios son inteligentes: no se envían los días en que ya registraste. El de grasa corporal está desactivado por defecto, ya que la mayoría no la mide a diario."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -8162,6 +8552,12 @@
       "comment": "Display representation of a focus filter intent that allows meal reminders.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Permitir recordatorios de comidas"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -8911,6 +9307,12 @@
       "comment": "A conjunction.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "y"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -9387,6 +9789,12 @@
       "comment": "A label displayed in the \"About\" view.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versión de la app"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10530,6 +10938,12 @@
       "comment": "A label showing the average number of calories consumed in a day.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prom.: %lld kcal"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10676,6 +11090,12 @@
     },
     "Barcode": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Código de barras"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10710,6 +11130,12 @@
     },
     "Base URL": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL base"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10740,6 +11166,12 @@
       "comment": "A description of the benefits of enabling notifications.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recibe recordatorios\npara registrar tus comidas"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10882,6 +11314,12 @@
     "Best Streak": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mejor racha"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11029,6 +11467,12 @@
     "Blue": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Azul"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11609,6 +12053,12 @@
     "Body Measurements": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medidas corporales"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11645,6 +12095,12 @@
       "comment": "Category for body metrics intents.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Métricas corporales"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11680,6 +12136,12 @@
     "Breakfast": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desayuno"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11715,6 +12177,12 @@
     "Breakfast → Lunch → Dinner": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desayuno → Almuerzo → Cena"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11863,6 +12331,12 @@
     "Calcium": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calcio"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -12441,6 +12915,12 @@
     },
     "Camera + Camera": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cámara + Cámara"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -12912,6 +13392,12 @@
     },
     "Carbs": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carbohidratos"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -12947,6 +13433,12 @@
     "Carbs (g)": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carbohidratos (g)"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -12983,6 +13475,12 @@
       "comment": "A description of the theme color setting.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambia el color principal de la app y el icono de la pantalla de inicio que se usan en pestañas, botones, iconos, gráficos y anillos de progreso."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13019,6 +13517,12 @@
       "comment": "A label for a button that checks for updates to the app.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar actualizaciones"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13168,6 +13672,12 @@
       "comment": "A message displayed when the app is checking if the meal would fit with the user's goals.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comprobando si encaja con tus objetivos..."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13204,6 +13714,12 @@
       "comment": "A label displayed when checking for updates.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando actualizaciones"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13239,6 +13755,12 @@
     "Chinese": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chino"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13274,6 +13796,12 @@
     "Czech": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Checo"
+          }
+        },
         "pl": {
           "stringUnit": {
             "state": "translated",
@@ -13303,6 +13831,12 @@
     "Cholesterol": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colesterol"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13333,6 +13867,12 @@
       "comment": "A heading for the section of the onboarding that lets users choose their AI provider.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige tu IA"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13817,6 +14357,12 @@
       "comment": "A button that clears the serving size when tapped.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar cantidad"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14626,6 +15172,12 @@
       "comment": "A heading for the Apple Health section of the onboarding.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conecta con\nApple Health"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14886,6 +15438,12 @@
       "comment": "A button that copies a group of food entries to the current day.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar %@"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14922,6 +15480,12 @@
       "comment": "A button that copies all foods from a source day to a target day.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar todos los alimentos"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14958,6 +15522,12 @@
       "comment": "A label for the date picker in the copy from day sheet.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar desde"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14992,6 +15562,12 @@
     },
     "Copy from Day": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar desde un día"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -15141,6 +15717,12 @@
             "value": "Current %1$@ -> Latest %2$@"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actual %1$@ -> Última %2$@"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -15176,6 +15758,12 @@
     "Current Streak": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Racha actual"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -15212,6 +15800,12 @@
       "comment": "A label that shows the user's current body fat percentage. The argument is the percentage.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actualmente %lld%%"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -15692,6 +16286,12 @@
     "Daily exercise or intense 3–4x / week": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ejercicio diario o intenso 3–4 veces / semana"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -16176,6 +16776,12 @@
       "comment": "A section that displays a date and time picker.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fecha y hora"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -16211,6 +16817,12 @@
     "Days on Target": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Días en el objetivo"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -16245,6 +16857,12 @@
     },
     "Decimal": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Decimal"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -16279,6 +16897,12 @@
     },
     "Default to Grams": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar gramos por defecto"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -16869,6 +17493,12 @@
     },
     "Delts Workout Tracker on the App Store": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delts Workout Tracker en el App Store"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -17118,6 +17748,12 @@
     "Dinner": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cena"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -17595,6 +18231,12 @@
     "Dutch": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neerlandés"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -17629,6 +18271,12 @@
     },
     "e.g. \"This is a half portion\" or \"Cooked in olive oil\"": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "p. ej., \"Es media porción\" o \"Cocinado en aceite de oliva\""
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -17663,6 +18311,12 @@
     },
     "e.g. anthropic/claude-sonnet-4": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "p. ej., anthropic/claude-sonnet-4"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -17697,6 +18351,12 @@
     },
     "e.g. gpt-4o-mini": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "p. ej., gpt-4o-mini"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -18317,6 +18977,12 @@
     "English": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inglés"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -18683,6 +19349,12 @@
     "Exercise 1–3 times / week": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ejercicio 1–3 veces / semana"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -18718,6 +19390,12 @@
     "Exercise 4–5 times / week": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ejercicio 4–5 veces / semana"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -18973,6 +19651,12 @@
     "Extra Active": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extremadamente activo"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -19344,6 +20028,12 @@
     },
     "Fat": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -19379,6 +20069,12 @@
     "Fat (g)": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa (g)"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -19414,6 +20110,12 @@
     "Fats": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasas"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -19448,6 +20150,12 @@
     },
     "Favorite": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favorito"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -19814,6 +20522,12 @@
     "Fiber": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fibra"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -19961,6 +20675,12 @@
     "Folate": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folato"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -20219,6 +20939,12 @@
     },
     "Food": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alimento"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -20365,6 +21091,12 @@
     },
     "Food Log": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diario de comidas"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -20399,6 +21131,12 @@
     },
     "Food Log Order": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orden del diario de comidas"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -20653,6 +21391,12 @@
       "comment": "A footer that explains that the foods copied from a previous day will be added to the current day, but the original entries will remain unchanged. The argument is the string “today”.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los alimentos se copiarán a %@. Los registros originales no cambian."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -20801,6 +21545,12 @@
     "French": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Francés"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -20947,6 +21697,12 @@
     },
     "From Photos + Note": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desde Fotos + nota"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -21202,6 +21958,12 @@
       "comment": "A version number of Fud AI.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fud AI 4.4"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -21550,6 +22312,12 @@
     "Fud Pink": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rosa Fud"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -21586,6 +22354,12 @@
       "comment": "Abbreviation for grams.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "g"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -21615,6 +22389,12 @@
     "Gain Weight": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aumentar de peso"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -21761,6 +22541,12 @@
     },
     "Gentle and sustainable. Great for long-term habits.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suave y sostenible. Ideal para hábitos a largo plazo."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -21796,6 +22582,12 @@
     "German": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alemán"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -21830,6 +22622,12 @@
     },
     "Get gentle reminders at meal times\nso you never forget to track.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recibe recordatorios amables a la hora de comer\npara que nunca olvides registrar."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -22086,6 +22884,12 @@
       "comment": "Intent description for the \"Today's Calories\" intent.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obtén tu total de calorías y proteína de hoy."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -22123,6 +22927,12 @@
       "extractionState": "manual",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Objetivo"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -22373,6 +23183,12 @@
       "comment": "A label for the body fat percentage picker.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa corporal objetivo %"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -22858,6 +23674,12 @@
     "Green": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verde"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -23005,6 +23827,12 @@
     "Health Score": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puntuación de salud"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -23261,6 +24089,12 @@
       "comment": "A Siri phrase that can be spoken to trigger a specific feature in Fud AI.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oye Siri, %@"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -23289,6 +24123,12 @@
     },
     "Hide breakfast, lunch, and dinner reminders while this Focus is active.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oculta los recordatorios de desayuno, almuerzo y cena mientras este modo de concentración esté activo."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -23325,6 +24165,12 @@
       "comment": "Description of the intent that hides Fud AI meal reminders while a Focus is active.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oculta los recordatorios de comidas de Fud AI mientras un modo de concentración esté activo."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -23473,6 +24319,12 @@
     "Hindi": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hindi"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -23734,6 +24586,12 @@
       "comment": "A label for the section that allows users to select which nutrients they want to see in their home cards.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarjetas de nutrientes en Inicio"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -23770,6 +24628,12 @@
       "comment": "A title for a sheet that lets the user select which nutrients to show in the Home view.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nutrientes en Inicio"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -24686,6 +25550,12 @@
       "comment": "A checkbox and label that allows the user to agree to the app's Terms of Service and Privacy Policy.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acepto los Términos del servicio y la Política de privacidad, incluido el intercambio de datos con el proveedor de IA descrito arriba."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -24722,6 +25592,12 @@
       "comment": "A message that is displayed in a dialog when logging a food item fails. The argument is a message describing the underlying error.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No pude registrar ese alimento. %@"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -24897,7 +25773,7 @@
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Llevo el control de mis comidas con Fud AI — haz una foto, dícela o escríbela, y la IA registra las calorías. Es gratis, de código abierto, y tus datos se quedan en tu dispositivo.\n\nDescargar: https://fud-ai.app"
+            "value": "Llevo el control de mis comidas con Fud AI — haz una foto, díctala o escríbela, y la IA registra las calorías. Es gratis, de código abierto, y tus datos se quedan en tu dispositivo.\n\nDescargar: https://fud-ai.app"
           }
         },
         "fr": {
@@ -25323,6 +26199,12 @@
       "comment": "A label displayed underneath a user's attached image.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imagen adjunta"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -25359,6 +26241,12 @@
       "comment": "A section title that describes the impact of the meal on the user's daily nutritional goals.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impacto en el día de hoy"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -25951,6 +26839,12 @@
     "Intense exercise 6–7 times / week": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ejercicio intenso 6–7 veces / semana"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -26098,6 +26992,12 @@
     "Iron": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hierro"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -26133,6 +27033,12 @@
     "Italian": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Italiano"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -26168,6 +27074,12 @@
     "Japanese": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Japonés"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -26202,6 +27114,12 @@
     },
     "Just snap, track, and thrive.\nYour nutrition, simplified.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo toma una foto, registra y progresa.\nTu nutrición, simplificada."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -26348,6 +27266,12 @@
     },
     "Keep your nutrition and body\nmeasurements in sync automatically.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mantén tu nutrición y tus\nmedidas corporales sincronizadas automáticamente."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -26383,6 +27307,12 @@
     "Korean": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coreano"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -26417,6 +27347,12 @@
     },
     "Language": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -26452,6 +27388,12 @@
     "Latest Meals First": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comidas más recientes primero"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -26819,6 +27761,12 @@
             "value": "Light"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ligero"
+          }
+        },
         "pl": {
           "stringUnit": {
             "state": "translated",
@@ -26836,6 +27784,12 @@
     "Limit": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Límite"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -26864,6 +27818,12 @@
     },
     "Listening…": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escuchando…"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -26899,6 +27859,12 @@
     "Little or no exercise": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poco o ningún ejercicio"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -27151,6 +28117,12 @@
     },
     "Lock nutrition editing": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bloquear edición de nutrición"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -27405,6 +28377,12 @@
     },
     "Log ${foodDescription}": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registrar ${foodDescription}"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -27441,6 +28419,12 @@
       "comment": "Description of an intent that logs a food entry in Fud AI by describing what was eaten.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registra un alimento en Fud AI describiendo lo que comiste."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -27697,6 +28681,12 @@
       "comment": "Title of the intent to log a food item.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registrar comida"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -27843,6 +28833,12 @@
     },
     "Log weight ${weightDescription}": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registrar peso ${weightDescription}"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -27879,6 +28875,12 @@
       "comment": "Intent description for the Log Weight intent.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registra tu peso actual en Fud AI."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -28028,6 +29030,12 @@
             "value": "Logged %1$@ %2$@."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registrado: %1$@ %2$@."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -28070,6 +29078,12 @@
             "value": "Logged %1$@: %2$lld calories and %3$@ grams protein."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registrado %1$@: %2$lld calorías y %3$@ gramos de proteína."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -28105,6 +29119,12 @@
     "Lose Weight": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perder peso"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -28803,6 +29823,12 @@
     "Magnesium": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Magnesio"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -28838,6 +29864,12 @@
     "Maintain": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mantener"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -28984,6 +30016,12 @@
     },
     "Manual Entry": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrada manual"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -29352,6 +30390,12 @@
       "comment": "Title of the meal reminder filter intent.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtro de recordatorios de comidas"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -29498,6 +30542,12 @@
     },
     "Meal Type": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tipo de comida"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -30080,6 +31130,12 @@
     "Mint": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menta"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -30116,6 +31172,12 @@
       "comment": "A label displayed above a picker that lets the user select the mode of the app.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modo"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -30257,6 +31319,12 @@
     "Moderate": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moderado"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -30516,6 +31584,12 @@
     "Mono Fat": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa mono"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -30551,6 +31625,12 @@
     "Mono Unsat. Fat": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa monoinsat."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -30585,6 +31665,12 @@
     },
     "More Nutrition": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Más nutrición"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -30621,6 +31707,12 @@
       "comment": "Title of the display representation when the user wants to mute meal reminders.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Silenciar recordatorios de comidas"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -30655,6 +31747,12 @@
     },
     "Mute meal reminders: ${muteMealReminders}": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Silenciar recordatorios de comidas: ${muteMealReminders}"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -30909,6 +32007,12 @@
     "Net Change": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambio neto"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -31052,6 +32156,12 @@
       "comment": "A description of Fud AI Premium.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No necesitas clave API.\nEl escaneo de alimentos con IA, el registro por voz y el Coach funcionan a través de Fud AI."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -31088,6 +32198,12 @@
       "comment": "A description of the terms of a subscription.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin compromiso: cancela cuando quieras"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -31236,6 +32352,12 @@
       "comment": "A message displayed when there are no foods logged on the selected day.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay alimentos registrados este día"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -31484,6 +32606,12 @@
     },
     "No worries! We'll use a standard formula\nbased on your height, weight, and age.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¡No te preocupes! Usaremos una fórmula estándar\nbasada en tu altura, peso y edad."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -32069,6 +33197,12 @@
     "Nutrition Data": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datos de nutrición"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -32440,6 +33574,12 @@
     },
     "of %lld kcal": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "de %lld kcal"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -32693,6 +33833,12 @@
     "Omega": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Omega"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -32722,6 +33868,12 @@
     "Omega-3": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Omega-3"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -33327,6 +34479,12 @@
     "Orange": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naranja"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -33473,6 +34631,12 @@
     },
     "Other Nutrients": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otros nutrientes"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -33619,6 +34783,12 @@
     },
     "Percentage": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Porcentaje"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -33767,6 +34937,12 @@
       "comment": "A label for accessing the user's photo library.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fototeca"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -33914,6 +35090,12 @@
     "Poly Fat": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa poli"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -33949,6 +35131,12 @@
     "Poly Unsat. Fat": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa poliinsat."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -33984,6 +35172,12 @@
     "Portuguese": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portugués"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -34019,6 +35213,12 @@
     "Potassium": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potasio"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -34502,6 +35702,12 @@
     },
     "Protein": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proteína"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -34537,6 +35743,12 @@
     "Protein (g)": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proteína (g)"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -34790,6 +36002,12 @@
     "Provider Auto": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automático del proveedor"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -34825,6 +36043,12 @@
     "Purple": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morado"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -35861,6 +37085,12 @@
     "Red": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rojo"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -35932,6 +37162,12 @@
       "comment": "A button that refreshes the user's usage of Fud AI Premium.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actualizar uso"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -35968,6 +37204,12 @@
       "comment": "A button that refreshes the user's usage.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actualizando uso"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -36226,6 +37468,12 @@
           "stringUnit": {
             "state": "new",
             "value": "Remove %1$@'s entry of %2$@? This also deletes the matching sample from Apple Health."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Eliminar el registro de %2$@ del %1$@? También se eliminará la muestra correspondiente de Apple Health."
           }
         },
         "it": {
@@ -37403,6 +38651,12 @@
       "comment": "A button that retries loading a suggestion.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reintentar"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -37550,6 +38804,12 @@
     "Sat Fat": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa sat."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -37585,6 +38845,12 @@
     "Saturated Fat": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa saturada"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -38071,6 +39337,12 @@
       "comment": "A description of the Siri phrases.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Di estas frases a Siri para usar Fud AI sin manos."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -38217,6 +39489,12 @@
     },
     "Scratch to reveal your\nspecial discount!": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¡Rasca para descubrir tu\ndescuento especial!"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -38359,6 +39637,12 @@
     "Sedentary": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sedentario"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -38395,6 +39679,12 @@
       "comment": "A description of the image that is attached to a Coach message.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviar con tu mensaje al Coach"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -38531,6 +39821,12 @@
     },
     "Server URL": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL del servidor"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -39016,6 +40312,12 @@
       "comment": "A section title for the nutrients that are shown on the user's home screen.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se muestra en Inicio"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -39052,6 +40354,12 @@
       "comment": "A screen that allows users to configure Siri phrases.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frases de Siri"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -39748,6 +41056,12 @@
     "Sodium": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sodio"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -39782,6 +41096,12 @@
     },
     "Sort": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordenar"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -39924,6 +41244,12 @@
     "Spanish": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Español"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -40408,6 +41734,12 @@
     "Sugar": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Azúcar"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -40442,6 +41774,12 @@
     },
     "Sugar, Fiber, Sodium": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Azúcar, fibra, sodio"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -40959,6 +42297,12 @@
       "comment": "A label displayed when the user has not yet started recording.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca el micrófono para empezar"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -41100,6 +42444,12 @@
     "Target": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meta"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -41241,6 +42591,12 @@
     "Teal": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verde azulado"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -41277,6 +42633,12 @@
       "comment": "A label for the tenth digit of a weight.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "décima"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -41753,6 +43115,12 @@
     },
     "The most balanced pace, motivating and sustainable.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El ritmo más equilibrado, motivador y sostenible."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -41787,6 +43155,12 @@
     },
     "Theme Color": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color del tema"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -41823,6 +43197,12 @@
       "comment": "A footer in the WhatIfMealImpactSheet that explains that this is not a logged meal, but a hypothetical meal.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto no registra la comida. Muestra cómo quedaría tu día de hoy si registraras %@."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -42196,6 +43576,12 @@
       "comment": "A label for a time picker.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hora"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -42230,6 +43616,12 @@
     },
     "Time Range": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rango de tiempo"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -42270,6 +43662,12 @@
           "stringUnit": {
             "state": "new",
             "value": "Today you have logged %1$lld calories and %2$@ grams protein."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoy has registrado %1$lld calorías y %2$@ gramos de proteína."
           }
         },
         "it": {
@@ -42314,6 +43712,12 @@
             "value": "Today you have logged %1$lld of %2$lld calories. %3$lld calories remaining. Protein: %4$@ grams."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoy has registrado %1$lld de %2$lld calorías. Te quedan %3$lld calorías. Proteína: %4$@ gramos."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -42350,6 +43754,12 @@
       "comment": "Intent to get the user's calorie and protein intake for today.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calorías de hoy"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -42384,6 +43794,12 @@
     },
     "Today's Food": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comida de hoy"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -42534,6 +43950,12 @@
     "Total Entries": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registros totales"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -42569,6 +43991,12 @@
     "Trans": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trans"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -42598,6 +44026,12 @@
     "Trans Fat": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa trans"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -42632,6 +44066,12 @@
     },
     "Transcribing via %@…": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transcribiendo con %@…"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -42779,6 +44219,12 @@
     },
     "Unfavorite": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar de favoritos"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -42813,6 +44259,12 @@
     },
     "Unit": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unidad"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -42847,6 +44299,12 @@
     },
     "Unlock nutrition editing": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desbloquear edición de nutrición"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -42991,6 +44449,12 @@
       "comment": "A button to update the app.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actualizar"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43027,6 +44491,12 @@
       "comment": "A label displayed in a button that indicates that a new version of the app is available.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actualización disponible"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43097,6 +44567,12 @@
     "Use iPhone Language": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar idioma del iPhone"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43131,6 +44607,12 @@
     },
     "Used when you tap the voice icon to log a meal. Each provider remembers its own language. Provider Auto keeps the provider default; Use iPhone Language sends your current iPhone language when supported.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se usa al tocar el icono de voz para registrar una comida. Cada proveedor recuerda su propio idioma. Automático del proveedor mantiene el idioma predeterminado del proveedor; Usar idioma del iPhone envía el idioma actual de tu iPhone cuando es compatible."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43387,6 +44869,12 @@
       "comment": "A label that shows the current version of the app.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versión %@"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43422,6 +44910,12 @@
     "Very Active": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muy activo"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43457,6 +44951,12 @@
     "Very intense daily, or physical job": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muy intenso a diario o trabajo físico"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43493,6 +44993,12 @@
       "comment": "A label for a picker that lets the user choose how they want to view their saved meals.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vista"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43747,6 +45253,12 @@
     "Vit A": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vit. A"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43782,6 +45294,12 @@
     "Vit C": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vit. C"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43817,6 +45335,12 @@
     "Vit D": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vit. D"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43852,6 +45376,12 @@
     "Vit E": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vit. E"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43887,6 +45417,12 @@
     "Vit K": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vit. K"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43922,6 +45458,12 @@
     "Vitamin A": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vitamina A"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43957,6 +45499,12 @@
     "Vitamin B12": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vitamina B12"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -43992,6 +45540,12 @@
     "Vitamin C": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vitamina C"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -44027,6 +45581,12 @@
     "Vitamin D": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vitamina D"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -44062,6 +45622,12 @@
     "Vitamin E": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vitamina E"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -44097,6 +45663,12 @@
     "Vitamin K": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vitamina K"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -44245,6 +45817,12 @@
       "comment": "A label displayed in the settings UI for the voice language.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma de voz"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -44391,6 +45969,12 @@
     },
     "We'll keep your calories steady\nto maintain your current weight.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mantendremos tus calorías estables\npara conservar tu peso actual."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -44425,6 +46009,12 @@
     },
     "We're setting everything\nup for you": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estamos preparando todo\npara ti"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -45133,6 +46723,12 @@
     "Weight Sync": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronización de peso"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -45169,6 +46765,12 @@
       "comment": "Prompt for the user to input their meal choice.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Qué comiste?"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -45203,6 +46805,12 @@
     },
     "What if?": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Y si…?"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -45344,6 +46952,12 @@
     },
     "What is your weight?": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Cuál es tu peso?"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -45600,6 +47214,12 @@
       "comment": "Prompt for the user to enter the ingredients of a recipe.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lo que comiste, por ejemplo 100 g de pechuga de pollo o dos huevos con pan tostado."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -45860,6 +47480,12 @@
     },
     "What's New": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novedades"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -45894,6 +47520,12 @@
     },
     "When enabled, new food results open with grams selected even if the AI detects cups, portions, or servings. You can still switch units for each food.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Si está activado, los nuevos resultados de alimentos se abren con gramos seleccionados aunque la IA detecte tazas, porciones o raciones. Aun así puedes cambiar la unidad de cada alimento."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -46244,6 +47876,12 @@
       "comment": "A label for the first wheel in a weight-picker.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "entero"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -46278,6 +47916,12 @@
     },
     "Whole": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entero"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -46971,6 +48615,12 @@
       "comment": "A label displayed under a slider that shows the estimated number of days until the user's goal is reached.",
       "isCommentAutoGenerated": true,
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alcanzarás tu objetivo en "
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -47961,6 +49611,12 @@
     },
     "Your weight, for example 75 kilograms or 165 pounds.": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu peso, por ejemplo 75 kilogramos o 165 libras."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -47996,6 +49652,12 @@
     "Zinc": {
       "extractionState": "manual",
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zinc"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -49803,7 +51465,7 @@
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Un Tip Jar opcional en Ajustes ← Acerca de te permite apoyar el desarrollo."
+            "value": "Un Tip Jar opcional en Ajustes → Acerca de te permite apoyar el desarrollo."
           }
         },
         "fr": {
@@ -58187,6 +59849,12 @@
             "value": "Hold the Fud AI app icon to use these shortcuts. Each slot opens its selected action directly. On iPhone, Quick Action 1–3 can also be assigned in Shortcuts to the Action Button or Back Tap."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mantén pulsado el icono de Fud AI para usar estos accesos rápidos. Cada espacio abre directamente la acción seleccionada. En el iPhone, las acciones rápidas 1–3 también se pueden asignar en Atajos al botón de Acción o a Toque posterior."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -58981,6 +60649,12 @@
     },
     "%@ burned · %@ deficit": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ quemadas · %@ de déficit"
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -58991,6 +60665,12 @@
     },
     "%@ burned · %@ surplus": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ quemadas · %@ de superávit"
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -59001,6 +60681,12 @@
     },
     "%@ burned · balanced": {
       "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ quemadas · equilibrado"
+          }
+        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -61681,6 +63367,12 @@
             "state": "translated",
             "value": "OpenSSF Best Practices"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OpenSSF Best Practices"
+          }
         }
       }
     },
@@ -61691,12 +63383,24 @@
             "state": "translated",
             "value": "Passing · project 14553"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aprobado · proyecto 14553"
+          }
         }
       }
     },
     "OpenSSF Scorecard": {
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OpenSSF Scorecard"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "OpenSSF Scorecard"
@@ -61711,6 +63415,12 @@
             "state": "translated",
             "value": "Security health score"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puntuación de seguridad"
+          }
         }
       }
     },
@@ -61720,6 +63430,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Udyam Registered"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registrada en Udyam"
           }
         }
       }
@@ -61731,6 +63447,12 @@
             "state": "translated",
             "value": "UDYAM-DL-06-0225072 · Micro enterprise"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UDYAM-DL-06-0225072 · Microempresa"
+          }
         }
       }
     },
@@ -61741,6 +63463,12 @@
             "state": "translated",
             "value": "ACE Certified"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Certificado ACE"
+          }
         }
       }
     },
@@ -61750,6 +63478,474 @@
           "stringUnit": {
             "state": "translated",
             "value": "Personal Trainer · NCCA-accredited"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrenador personal · Acreditado por la NCCA"
+          }
+        }
+      }
+    },
+    "Apple's on-device speech recognition. Free, works offline on modern iPhones, real-time partial results. Recommended default.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reconocimiento de voz de Apple en el dispositivo. Gratis, funciona sin conexión en iPhones recientes y muestra resultados parciales en tiempo real. Opción predeterminada recomendada."
+          }
+        }
+      }
+    },
+    "Gemini 3.5 Transcribe for accurate batch transcription with automatic language detection.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gemini 3.5 Transcribe para una transcripción por lotes precisa con detección automática del idioma."
+          }
+        }
+      }
+    },
+    "OpenAI GPT-Transcribe, the current high-accuracy model for recorded audio.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OpenAI GPT-Transcribe, el modelo actual de alta precisión para audio grabado."
+          }
+        }
+      }
+    },
+    "Groq-hosted Whisper Large v3. Very fast inference, has a free tier.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Whisper Large v3 alojado en Groq. Inferencia muy rápida, con plan gratuito."
+          }
+        }
+      }
+    },
+    "Voxtral Mini Transcribe 2 for accurate multilingual batch transcription.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voxtral Mini Transcribe 2 para una transcripción por lotes multilingüe y precisa."
+          }
+        }
+      }
+    },
+    "Deepgram Nova. Real-time and batch modes, fast and accurate.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deepgram Nova. Modos en tiempo real y por lotes, rápido y preciso."
+          }
+        }
+      }
+    },
+    "AssemblyAI Universal-3 Pro with Universal-2 fallback for broader language support.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AssemblyAI Universal-3 Pro con Universal-2 como respaldo para una mayor compatibilidad de idiomas."
+          }
+        }
+      }
+    },
+    "Mostly seated at work and home; little or no planned exercise.\nApprox. step guide: under 5,000 steps/day.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sentado la mayor parte del tiempo en el trabajo y en casa; poco o ningún ejercicio planificado.\nGuía aprox. de pasos: menos de 5000 pasos/día."
+          }
+        }
+      }
+    },
+    "Mostly seated; light exercise or casual activity 1–3 days/week.\nApprox. step guide: 5,000–7,499 steps/day.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mayormente sentado; ejercicio ligero o actividad ocasional 1–3 días/semana.\nGuía aprox. de pasos: 5000–7499 pasos/día."
+          }
+        }
+      }
+    },
+    "Regular gym, cardio, climbing, cycling, or sport 3–5 days/week.\nApprox. step guide: 7,500–9,999 steps/day.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gimnasio, cardio, escalada, ciclismo o deporte con regularidad 3–5 días/semana.\nGuía aprox. de pasos: 7500–9999 pasos/día."
+          }
+        }
+      }
+    },
+    "Training most days, or a job with substantial standing, movement, or lifting.\nApprox. step guide: 10,000–12,499 steps/day.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrenamiento casi todos los días, o un trabajo en el que pasas mucho tiempo de pie, en movimiento o cargando peso.\nGuía aprox. de pasos: 10 000–12 499 pasos/día."
+          }
+        }
+      }
+    },
+    "Hard training 6–7 days/week, endurance training, or demanding physical work.\nApprox. step guide: 12,500–14,999 steps/day.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrenamiento intenso 6–7 días/semana, entrenamiento de resistencia o trabajo físico exigente.\nGuía aprox. de pasos: 12 500–14 999 pasos/día."
+          }
+        }
+      }
+    },
+    "Competitive/high-volume athlete, twice-daily training, or heavy manual work plus frequent training.\nApprox. step guide: 15,000+ steps/day.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atleta competitivo o de alto volumen, entrenamiento dos veces al día, o trabajo manual pesado con entrenamiento frecuente.\nGuía aprox. de pasos: más de 15 000 pasos/día."
+          }
+        }
+      }
+    },
+    "Lose Weight / Cutting": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perder peso / Definición"
+          }
+        }
+      }
+    },
+    "Maintain / Recomp": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mantener / Recomposición"
+          }
+        }
+      }
+    },
+    "Gain Weight / Bulking": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aumentar de peso / Volumen"
+          }
+        }
+      }
+    },
+    "Caffeine": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cafeína"
+          }
+        }
+      }
+    },
+    "Creatine": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Creatina"
+          }
+        }
+      }
+    },
+    "Beta-Alanine": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beta-alanina"
+          }
+        }
+      }
+    },
+    "L-Citrulline": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L-citrulina"
+          }
+        }
+      }
+    },
+    "L-Carnitine": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L-carnitina"
+          }
+        }
+      }
+    },
+    "L-Arginine": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L-arginina"
+          }
+        }
+      }
+    },
+    "Taurine": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taurina"
+          }
+        }
+      }
+    },
+    "Betaine": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Betaína"
+          }
+        }
+      }
+    },
+    "B12": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B12"
+          }
+        }
+      }
+    },
+    "Declared allergen match": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coincide con un alérgeno declarado"
+          }
+        }
+      }
+    },
+    "May contain": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puede contener"
+          }
+        }
+      }
+    },
+    "Possible allergen": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Posible alérgeno"
+          }
+        }
+      }
+    },
+    "Unable to assess": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se puede evaluar"
+          }
+        }
+      }
+    },
+    "Declared product allergens": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alérgenos declarados del producto"
+          }
+        }
+      }
+    },
+    "Trace warning": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advertencia de trazas"
+          }
+        }
+      }
+    },
+    "Ingredient label": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Etiqueta de ingredientes"
+          }
+        }
+      }
+    },
+    "Ingredient name": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre del ingrediente"
+          }
+        }
+      }
+    },
+    "Loading nutrition…": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cargando nutrición…"
+          }
+        }
+      }
+    },
+    "Choose based on your average week, including work and exercise.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige según tu semana promedio, incluyendo trabajo y ejercicio."
+          }
+        }
+      }
+    },
+    "Apple Watch Workouts": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrenamientos del Apple Watch"
+          }
+        }
+      }
+    },
+    "Daily Summary": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resumen diario"
+          }
+        }
+      }
+    },
+    "Goal Weight": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peso objetivo"
+          }
+        }
+      }
+    },
+    "Sessions": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesiones"
+          }
+        }
+      }
+    },
+    "Streak Reminder": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recordatorio de racha"
+          }
+        }
+      }
+    },
+    "Water": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agua"
+          }
+        }
+      }
+    },
+    "Water Reminder": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recordatorio de agua"
           }
         }
       }
