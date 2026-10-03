@@ -5841,9 +5841,21 @@
     "%lld days": {
       "localizations": {
         "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld días"
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld día"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld días"
+                }
+              }
+            }
           }
         },
         "it": {
@@ -5999,7 +6011,7 @@
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Se añadirán %1$lld alimento%2$@ a %3$@."
+            "value": "%1$lld alimento%2$@ para añadir a %3$@."
           }
         },
         "it": {
@@ -6277,9 +6289,21 @@
     "%lld left": {
       "localizations": {
         "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld restantes"
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld restante"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld restantes"
+                }
+              }
+            }
           }
         },
         "it": {
